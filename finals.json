@@ -39,6 +39,44 @@
         },
         "era_logo_note": "Los Angeles Lakers primary, 1976-2001 version (era ranges per SportsLogoHistory/logos-world)"
       }
+    },
+    {
+      "season": "1984-85",
+      "finals_year": 1985,
+      "status": "finals_reported_east_team_pending",
+      "west": {
+        "team": "Los Angeles Lakers",
+        "era_logo": "assets/logos/lal-1984.png",
+        "era_logo_note": "Los Angeles Lakers primary, 1976-2001 version",
+        "colors": {
+          "primary": "#552583",
+          "secondary": "#FDB927"
+        },
+        "featured_player": {
+          "name": "Magic Johnson",
+          "nickname_title": "Magic",
+          "position": "Guard",
+          "number": 32,
+          "note": "Finals MVP, owner-reported."
+        }
+      },
+      "east": {
+        "team": null,
+        "era_logo": null,
+        "colors": null,
+        "featured_player": null,
+        "note": "East champion not stated in Lucian's 1985 report \u2014 do not assume it was Boston."
+      },
+      "finals_logo": null,
+      "series_score": "4-3",
+      "champion": "Los Angeles Lakers",
+      "awards": {
+        "mvp": "Magic Johnson",
+        "dpoy": "Hakeem Olajuwon",
+        "dpoy_team": "Chicago Bulls",
+        "finals_mvp": "Magic Johnson",
+        "note": "All owner-reported 2026-11-12 for this Houston save; Finals went seven games."
+      }
     }
   ],
   "rules": {
