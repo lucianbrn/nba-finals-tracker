@@ -265,7 +265,7 @@
       "file": "06",
       "season": "1988-89",
       "finals_year": 1989,
-      "status": "recorded_east_featured_photo_in_name_pending",
+      "status": "recorded",
       "west": {
         "team": "Dallas Mavericks",
         "logo": "assets/logos/dal-1981.png",
@@ -279,7 +279,7 @@
           "title": "Mark Aguirre",
           "position": "Forward",
           "jersey": "24",
-          "photo": "Real photo cutout — from Aguirre's 1989-90 Topps card photo, shooting form — assets/players/aguirre-1989.png",
+          "photo": "Same hands-on-hips hero portrait as 1988 (Lucian's call 2026-11-13: same photo for both of Aguirre's Finals) — assets/players/aguirre-1989.png",
           "note": "Finals MVP. Jersey 23 is his real-life Dallas number; photo pending Lucian's art.",
           "jersey_note": "Corrected from 23 to 24 — Aguirre's Dallas number, per Lucian's supplied '88 sheet art (23 was his later Detroit number)."
         }
@@ -293,12 +293,12 @@
           "secondary": "#F9A01B"
         },
         "featured_player": {
-          "name": null,
-          "title": null,
-          "position": null,
+          "name": "John Stockton",
+          "title": "John Stockton",
+          "position": "Guard",
           "jersey": "12",
           "photo": "Tighter replacement photo supplied by Lucian 2026-11-12 (Heat #12, waist-up), cut to a giant PNG — assets/players/heat-1989.png",
-          "note": "Lucian supplied the photo for the '89 Heat panel but has not named the player — name/position/title await his word. Do not guess."
+          "note": "Named by Lucian 2026-11-13 (corrected same day: John Stockton, not Sean): the '89 Heat featured player is John Stockton (Heat #12 in this save, photo Lucian supplied)."
         },
         "note": "East featured player NOT yet named by Lucian — do not guess."
       },
@@ -320,7 +320,7 @@
       "file": "07",
       "season": "1989-90",
       "finals_year": 1990,
-      "status": "recorded_west_featured_photo_in_name_pending",
+      "status": "recorded",
       "west": {
         "team": "San Antonio Spurs",
         "logo": "assets/logos/sas-1989.png",
@@ -330,12 +330,12 @@
           "secondary": "#EF5376"
         },
         "featured_player": {
-          "name": null,
-          "title": null,
-          "position": null,
+          "name": "Patrick Ewing",
+          "title": "Patrick Ewing",
+          "position": "Center",
           "jersey": "33",
           "photo": "Hero portrait supplied by Lucian 2026-11-13 (hands on hips, Spurs #33), cut to a giant PNG — assets/players/spurs-1990.png",
-          "note": "Lucian supplied the photo for the '90 Spurs panel but has not named the player — name/position/title await his word. Do not guess."
+          "note": "Named by Lucian 2026-11-13: the '90 Spurs featured player is Patrick Ewing (Spurs #33 in this save, photo he supplied)."
         },
         "note": "West featured photo supplied by Lucian 2026-11-13; player not yet named by Lucian — do not guess."
       },
@@ -392,12 +392,14 @@
       "secondary": "#C4CED4"
     }
   },
-  "player_gif_note": "Player figures are REAL PHOTOS cut to giant transparent PNGs (sprite GIFs removed 2026-11-12 at Lucian's order). Pose rule (Lucian, 2026-11-13): everyone hands on hips; one portrait per player reused across their Finals. Only Aguirre '89 (shooting-form photo) still breaks the pose rule — awaiting a hands-on-hips portrait.",
+  "player_gif_note": "Player figures are REAL PHOTOS cut to giant transparent PNGs (sprite GIFs removed 2026-11-12). Pose rule (Lucian, 2026-11-13): everyone hands on hips, one portrait per player reused across all their Finals — now true for every panel including Aguirre '89.",
   "design": {
     "season_layout": "Each season is ONE combined card. NO top matchup row: the Larry O'Brien trophy sits BETWEEN the two player GIF panels, with the year's real NBA Finals logo (era logoman for 1984/85) and the series score + champion under it (Lucian, 2026-11-12).",
     "title_fonts": "Player nickname titles use their team's font (Eriq P. Jaffe's NBA team lettering recreations): NBA Lakers, NBA Celtics, NBA 76ers, NBA Mavericks in assets/fonts/.",
     "titles": "Panel titles are the player's first and last name in their team's lettering font (Lucian, 2026-11-12) — no nicknames.",
     "player_art": "REAL player photos turned into giant cutout PNGs (Lucian, 2026-11-12 — every sprite GIF removed). POSE RULE (Lucian, 2026-11-13): every featured player on the site is HANDS ON HIPS — one supplied hero portrait per player, reused across all of that player's Finals (Magic: same portrait '84-'87; Jordan: same Sixers portrait '86+'87; Bird: long hair '84/'85, short hair '88 FMVP year). The old Bulls/Warriors jersey caveats are RESOLVED: Jordan's portrait is a real 76ers jersey and Mullin's is a real Nets jersey, both supplied by Lucian.",
-    "conference_sides": "Western Conference team ALWAYS on the LEFT, Eastern Conference team ALWAYS on the RIGHT (Lucian, 2026-11-13). Series score reads West wins — East wins."
+    "conference_sides": "Western Conference team ALWAYS on the LEFT, Eastern Conference team ALWAYS on the RIGHT (Lucian, 2026-11-13). Series score reads West wins — East wins.",
+    "title_colors": "Panel title text = the team's PRIMARY color, title shadow = the team's SECONDARY color (finals.json colors), font = the team's Jaffe lettering recreation (Lucian, 2026-11-13).",
+    "trophy_lean": "The Larry O'Brien trophy in the versus column is oversized and TILTS/LEANS toward the side that won that year (lean-w for West champions, lean-e for East champions) (Lucian, 2026-11-13)."
   }
 }
