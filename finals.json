@@ -38,7 +38,8 @@
           "note": "Finals MVP, owner-reported. Nickname/position/number are his standard era identifiers."
         },
         "era_logo_note": "Los Angeles Lakers primary, 1976-2001 version (era ranges per SportsLogoHistory/logos-world)"
-      }
+      },
+      "finals_logo_note": "No year-specific Finals logo exists for this year (individual Finals logos began in 1986). Per Lucian's 2026-11-12 choice, the center shows the era NBA logoman (1971-2017) under the trophy."
     },
     {
       "season": "1984-85",
@@ -80,7 +81,8 @@
         "dpoy_team": "Chicago Bulls",
         "finals_mvp": "Magic Johnson",
         "note": "All owner-reported 2026-11-12 for this Houston save; Finals went seven games."
-      }
+      },
+      "finals_logo_note": "No year-specific Finals logo exists for this year (individual Finals logos began in 1986). Per Lucian's 2026-11-12 choice, the center shows the era NBA logoman (1971-2017) under the trophy."
     },
     {
       "file": "03",
