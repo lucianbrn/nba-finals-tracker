@@ -248,6 +248,53 @@
         "finals_mvp": "Larry Bird"
       },
       "note": "Reported by Lucian 2026-11-12: Hakeem won BOTH MVP and DPOY for 1987-88 (teams not stated); Bird Finals MVP, Celtics beat Mavericks 4-1 \u2014 Boston's first title and Dallas's first Finals in this save."
+    },
+    {
+      "file": "06",
+      "season": "1988-89",
+      "finals_year": 1989,
+      "status": "recorded_east_featured_pending",
+      "west": {
+        "team": "Dallas Mavericks",
+        "logo": "assets/logos/dal-1981.png",
+        "logo_note": "Dallas Mavericks primary, 1981-1993",
+        "colors": {
+          "primary": "#00538C",
+          "secondary": "#00843D"
+        },
+        "featured_player": {
+          "name": "Mark Aguirre",
+          "title": "AGUIRRE",
+          "position": "Forward",
+          "jersey": "23",
+          "photo": null,
+          "note": "Finals MVP. Jersey 23 is his real-life Dallas number; photo pending Lucian's art."
+        }
+      },
+      "east": {
+        "team": "Miami Heat",
+        "logo": "assets/logos/mia-1988.png",
+        "logo_note": "Miami Heat primary, 1988-1999 (flaming ball), logos-world transparent version",
+        "colors": {
+          "primary": "#98002E",
+          "secondary": "#F9A01B"
+        },
+        "featured_player": null,
+        "note": "East featured player NOT yet named by Lucian \u2014 do not guess."
+      },
+      "champion": "Dallas Mavericks",
+      "series_score": "4-2",
+      "games": 6,
+      "finals_logo": "assets/logos/finals-1989.png",
+      "finals_logo_note": "The 1989 NBA Finals primary logo (script), SportsLogos.Net.",
+      "awards": {
+        "mvp": "Michael Jordan",
+        "mvp_team": null,
+        "dpoy": "Hakeem Olajuwon",
+        "dpoy_team": null,
+        "finals_mvp": "Mark Aguirre"
+      },
+      "note": "Reported by Lucian 2026-11-12: Jordan MVP, Hakeem DPOY (teams not stated); Aguirre Finals MVP as Dallas beats Miami 4-2 \u2014 the Mavericks' first title in this save, over an expansion-era Heat team in the Finals in its second season."
     }
   ],
   "rules": {
@@ -271,5 +318,9 @@
       "secondary": "#C4CED4"
     }
   },
-  "player_gif_note": "Player figures are REAL sprite GIFs built by Muse from Lucian's 3x3 sprite sheets (sprite_gif.py): 9 expression frames x 180ms, then a hold on frame 1; total loop exactly 5000ms, infinite. Team logo behind each player fills ~the whole panel box (Lucian, 2026-11-12)."
+  "player_gif_note": "Player figures are REAL sprite GIFs built by Muse from Lucian's 3x3 sprite sheets (sprite_gif.py): 9 expression frames x 180ms, then a hold on frame 1; total loop exactly 5000ms, infinite. Team logo behind each player fills ~the whole panel box (Lucian, 2026-11-12).",
+  "design": {
+    "season_layout": "Each season is ONE combined card: matchup/trophy + player GIF panels + awards strip in a single bordered stage (Lucian, 2026-11-12).",
+    "title_fonts": "Player nickname titles use their team's font (Eriq P. Jaffe's NBA team lettering recreations): NBA Lakers, NBA Celtics, NBA 76ers, NBA Mavericks in assets/fonts/."
+  }
 }
