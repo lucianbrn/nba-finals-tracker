@@ -54,7 +54,7 @@
     {
       "season": "1984-85",
       "finals_year": 1985,
-      "status": "recorded_east_featured_player_pending",
+      "status": "recorded",
       "west": {
         "team": "Los Angeles Lakers",
         "era_logo": "assets/logos/lal-1984.png",
@@ -68,7 +68,9 @@
           "nickname_title": "Magic",
           "position": "Guard",
           "number": 32,
-          "note": "Finals MVP, owner-reported."
+          "note": "Finals MVP, owner-reported.",
+          "photo": "assets/players/magic-1985.png",
+          "photo_gif": "assets/players/magic-1985.gif"
         }
       },
       "east": {
@@ -79,7 +81,14 @@
           "primary": "#007A33",
           "secondary": "#BA9653"
         },
-        "featured_player": null,
+        "featured_player": {
+          "name": "Larry Bird",
+          "title": "BIRD",
+          "position": "Forward",
+          "jersey": "33",
+          "photo": "assets/players/bird-1985.png",
+          "photo_gif": "assets/players/bird-1985.gif"
+        },
         "note": "East champion confirmed by Lucian 2026-11-12: Lakers beat Celtics in 1985. East featured player still not named."
       },
       "finals_logo": null,
@@ -160,5 +169,19 @@
       "primary": "#CE1141",
       "secondary": "#C4CED4"
     }
+  },
+  "pending_season": {
+    "season": "1986-87",
+    "finals_year": 1987,
+    "status": "awards_reported_finals_pending",
+    "awards": {
+      "mvp": "Michael Jordan",
+      "mvp_team": "Philadelphia 76ers",
+      "dpoy": "Hakeem Olajuwon",
+      "dpoy_team": null,
+      "note": "DPOY team not stated in Lucian's 2026-11-12 report - do not assume."
+    },
+    "finals": null,
+    "note": "Reported by Lucian 2026-11-12. Add the full Finals entry when he reports the 1987 Finals result."
   }
 }
