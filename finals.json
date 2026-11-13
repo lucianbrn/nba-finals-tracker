@@ -103,5 +103,18 @@
       "primary": "#CE1141",
       "secondary": "#C4CED4"
     }
+  },
+  "pending_season": {
+    "season": "1985-86",
+    "finals_year": 1986,
+    "status": "awards_reported_finals_pending",
+    "awards": {
+      "mvp": "Magic Johnson",
+      "dpoy": "Hakeem Olajuwon",
+      "dpoy_team": null,
+      "note": "DPOY team not stated in Lucian's 2026-11-12 report (in 1984-85 he was Chicago Bulls in this save) - do not assume."
+    },
+    "finals": null,
+    "note": "Reported by Lucian 2026-11-12. Add the full Finals entry when he reports the 1986 Finals result."
   }
 }
