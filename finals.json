@@ -295,6 +295,53 @@
         "finals_mvp": "Mark Aguirre"
       },
       "note": "Reported by Lucian 2026-11-12: Jordan MVP, Hakeem DPOY (teams not stated); Aguirre Finals MVP as Dallas beats Miami 4-2 \u2014 the Mavericks' first title in this save, over an expansion-era Heat team in the Finals in its second season."
+    },
+    {
+      "file": "07",
+      "season": "1989-90",
+      "finals_year": 1990,
+      "status": "recorded_west_featured_pending",
+      "west": {
+        "team": "San Antonio Spurs",
+        "logo": "assets/logos/sas-1989.png",
+        "logo_note": "San Antonio Spurs primary, 1989-2002 (fiesta), logos-world transparent version",
+        "colors": {
+          "primary": "#00B2A9",
+          "secondary": "#EF5376"
+        },
+        "featured_player": null,
+        "note": "West featured player NOT yet named by Lucian \u2014 do not guess."
+      },
+      "east": {
+        "team": "New Jersey Nets",
+        "logo": "assets/logos/njn-1978.png",
+        "logo_note": "New Jersey Nets primary, 1978-1990 (state roundel), logos-world transparent version",
+        "colors": {
+          "primary": "#0065B3",
+          "secondary": "#E31837"
+        },
+        "featured_player": {
+          "name": "Chris Mullin",
+          "title": "MULLY",
+          "position": "Forward",
+          "jersey": "17",
+          "photo": null,
+          "note": "Finals MVP (on the Nets in this save). Jersey 17 is his real-life career number; photo pending Lucian's art."
+        }
+      },
+      "champion": "New Jersey Nets",
+      "series_score": "1-4",
+      "games": 5,
+      "finals_logo": "assets/logos/finals-1990.png",
+      "finals_logo_note": "The 1990 NBA Finals primary logo (script), SportsLogos.Net.",
+      "awards": {
+        "mvp": "Michael Jordan",
+        "mvp_team": null,
+        "dpoy": "Hakeem Olajuwon",
+        "dpoy_team": null,
+        "finals_mvp": "Chris Mullin"
+      },
+      "note": "Reported by Lucian 2026-11-12: Jordan MVP, Hakeem DPOY (teams not stated); Mullin Finals MVP as the Nets beat the Spurs 4-1 \u2014 first title/Finals for both franchises in this save."
     }
   ],
   "rules": {
@@ -320,7 +367,7 @@
   },
   "player_gif_note": "Player figures are REAL sprite GIFs built by Muse from Lucian's 3x3 sprite sheets (sprite_gif.py): 9 expression frames x 180ms, then a hold on frame 1; total loop exactly 5000ms, infinite. Team logo behind each player fills ~the whole panel box (Lucian, 2026-11-12).",
   "design": {
-    "season_layout": "Each season is ONE combined card: matchup/trophy + player GIF panels + awards strip in a single bordered stage (Lucian, 2026-11-12).",
+    "season_layout": "Each season is ONE combined card. NO top matchup row: the Larry O'Brien trophy sits BETWEEN the two player GIF panels, with the year's real NBA Finals logo (era logoman for 1984/85) and the series score + champion under it (Lucian, 2026-11-12).",
     "title_fonts": "Player nickname titles use their team's font (Eriq P. Jaffe's NBA team lettering recreations): NBA Lakers, NBA Celtics, NBA 76ers, NBA Mavericks in assets/fonts/."
   }
 }
