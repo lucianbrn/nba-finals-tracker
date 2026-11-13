@@ -15,14 +15,21 @@
           "primary": "#007A33",
           "secondary": "#BA9653"
         },
-        "featured_player": null,
+        "featured_player": {
+          "name": "Larry Bird",
+          "title": "BIRD",
+          "position": "Forward",
+          "jersey": "33",
+          "photo": "assets/players/bird-1984.png",
+          "photo_gif": "assets/players/bird-1984.gif"
+        },
         "era_logo_note": "Boston Celtics primary, 1976-1996 green/white Lucky version (era ranges per SportsLogoHistory/logos-world)"
       },
       "finals_logo": null,
       "finals_year": 1984,
       "season": "1983-84",
       "series_score": "4-0",
-      "status": "finals_reported_east_featured_player_pending",
+      "status": "recorded",
       "west": {
         "team": "Los Angeles Lakers",
         "era_logo": "assets/logos/lal-1984.png",
@@ -35,11 +42,14 @@
           "nickname_title": "Magic",
           "position": "Guard",
           "number": 32,
-          "note": "Finals MVP, owner-reported. Nickname/position/number are his standard era identifiers."
+          "note": "Finals MVP, owner-reported. Nickname/position/number are his standard era identifiers.",
+          "photo": "assets/players/magic-1984.png",
+          "photo_gif": "assets/players/magic-1984.gif"
         },
         "era_logo_note": "Los Angeles Lakers primary, 1976-2001 version (era ranges per SportsLogoHistory/logos-world)"
       },
-      "finals_logo_note": "No year-specific Finals logo exists for this year (individual Finals logos began in 1986). Per Lucian's 2026-11-12 choice, the center shows the era NBA logoman (1971-2017) under the trophy."
+      "finals_logo_note": "No year-specific Finals logo exists for this year (individual Finals logos began in 1986). Per Lucian's 2026-11-12 choice, the center shows the era NBA logoman (1971-2017) under the trophy.",
+      "note_gif": "Site displays 5-second looping GIFs built from Lucian's supplied art (0.8s rise/shine, then hold; loop = 5000ms exactly)."
     },
     {
       "season": "1984-85",
