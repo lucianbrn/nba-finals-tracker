@@ -81,6 +81,51 @@
         "finals_mvp": "Magic Johnson",
         "note": "All owner-reported 2026-11-12 for this Houston save; Finals went seven games."
       }
+    },
+    {
+      "file": "03",
+      "season": "1985-86",
+      "finals_year": 1986,
+      "status": "recorded_east_featured_player_pending",
+      "west": {
+        "team": "Los Angeles Lakers",
+        "logo": "assets/logos/lal-1984.png",
+        "logo_note": "Los Angeles Lakers primary, 1976-2001 (gold ball, light-purple wordmark)",
+        "colors": {
+          "primary": "#552583",
+          "secondary": "#FDB927"
+        },
+        "featured_player": {
+          "name": "Magic Johnson",
+          "title": "MAGIC",
+          "position": "Guard",
+          "jersey": "32",
+          "photo": null
+        }
+      },
+      "east": {
+        "team": "Philadelphia 76ers",
+        "logo": "assets/logos/phi-1978.png",
+        "logo_note": "Philadelphia 76ers primary, 1978-1997 (ball outline, red 7 / blue 6ers, ring of stars)",
+        "colors": {
+          "primary": "#006BB6",
+          "secondary": "#ED174C"
+        },
+        "featured_player": null,
+        "note": "Per Lucian's report, the 76ers featured Michael Jordan and Moses Malone; the featured-player slot awaits Lucian's pick."
+      },
+      "champion": "Los Angeles Lakers",
+      "series_score": "4-3",
+      "games": 7,
+      "finals_logo": "assets/logos/finals-1986.png",
+      "finals_logo_note": "The 1986 NBA Finals primary logo (script 'The 1986 NBA Finals'), SportsLogos.Net - first year-specific Finals logo.",
+      "awards": {
+        "mvp": "Magic Johnson",
+        "dpoy": "Hakeem Olajuwon",
+        "dpoy_team": null,
+        "finals_mvp": "Magic Johnson"
+      },
+      "note": "Reported by Lucian 2026-11-12: Magic Johnson Finals MVP over Michael Jordan and Moses Malone's 76ers in seven games. DPOY team not stated for 1985-86."
     }
   ],
   "rules": {
@@ -103,18 +148,5 @@
       "primary": "#CE1141",
       "secondary": "#C4CED4"
     }
-  },
-  "pending_season": {
-    "season": "1985-86",
-    "finals_year": 1986,
-    "status": "awards_reported_finals_pending",
-    "awards": {
-      "mvp": "Magic Johnson",
-      "dpoy": "Hakeem Olajuwon",
-      "dpoy_team": null,
-      "note": "DPOY team not stated in Lucian's 2026-11-12 report (in 1984-85 he was Chicago Bulls in this save) - do not assume."
-    },
-    "finals": null,
-    "note": "Reported by Lucian 2026-11-12. Add the full Finals entry when he reports the 1986 Finals result."
   }
 }

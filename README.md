@@ -13,6 +13,7 @@ A living Finals archive for Lucian's NBA 2K MyNBA Eras save.
 
 - **1983-84:** Los Angeles Lakers 4-0 Boston Celtics · Champion Lakers · MVP Magic Johnson · DPOY Moses Malone · Finals MVP Magic Johnson · West featured player: Magic Johnson. East featured player: pending Lucian's call. Player photos: pending.
 - **1984-85:** Los Angeles Lakers 4-3 Boston Celtics (seven games; East champion confirmed by Lucian 2026-11-12) · Champion Lakers · MVP Magic Johnson · DPOY Hakeem Olajuwon (Chicago Bulls) · Finals MVP Magic Johnson · West featured player: Magic Johnson. East featured player: pending Lucian's call.
+- **1985-86:** Los Angeles Lakers 4-3 Philadelphia 76ers (seven games) · Champion Lakers · MVP Magic Johnson · DPOY Hakeem Olajuwon (team not stated) · Finals MVP Magic Johnson · Real 1986 Finals logo centered · West featured player: Magic Johnson. East featured player: pending Lucian's call (Michael Jordan or Moses Malone).
 
 ## Deploy
 
