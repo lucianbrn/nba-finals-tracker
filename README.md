@@ -19,3 +19,5 @@ A living Finals archive for Lucian's NBA 2K MyNBA Eras save.
 ## Deploy
 
 Static site (index.html + assets/ + finals.json). Pushed to GitHub; Vercel imports the repo so pushes to main auto-deploy to the public link.
+
+- **1987-88:** Boston Celtics 4-1 Dallas Mavericks · Champion Celtics · MVP Hakeem Olajuwon · DPOY Hakeem Olajuwon (Hakeem swept both; teams not stated) · Finals MVP Larry Bird · Real 1988 Finals logo centered · East featured player: Larry Bird (1985 sprite GIF reused). West featured player: pending Lucian's call (best Maverick). Player GIFs are now REAL sprite animations built from Lucian's 3x3 sheets; team logos behind players fill the panel box.

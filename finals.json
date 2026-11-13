@@ -200,6 +200,54 @@
         "finals_mvp": "Michael Jordan"
       },
       "note": "Reported by Lucian 2026-11-12: Jordan MVP (76ers) + Finals MVP, 76ers beat Lakers 4-1. Score shown side-accurate (West 1, East 4)."
+    },
+    {
+      "file": "05",
+      "season": "1987-88",
+      "finals_year": 1988,
+      "status": "recorded_west_featured_pending",
+      "west": {
+        "team": "Dallas Mavericks",
+        "logo": "assets/logos/dal-1981.png",
+        "logo_note": "Dallas Mavericks primary, 1981-1993 (blue M + cowboy hat on green ball), logos-world transparent version.",
+        "colors": {
+          "primary": "#00538C",
+          "secondary": "#00843D"
+        },
+        "featured_player": null,
+        "note": "West featured player NOT yet named by Lucian \u2014 do not guess (era Mavs stars in real life: Aguirre, Blackman, Harper; this save may differ)."
+      },
+      "east": {
+        "team": "Boston Celtics",
+        "logo": "assets/logos/bos-1984.png",
+        "logo_note": "Boston Celtics primary, 1976-1996",
+        "colors": {
+          "primary": "#007A33",
+          "secondary": "#BA9653"
+        },
+        "featured_player": {
+          "name": "Larry Bird",
+          "title": "BIRD",
+          "position": "Forward",
+          "jersey": "33",
+          "photo": "assets/players/bird-1985.png",
+          "photo_gif": "assets/players/bird-1985.gif",
+          "note": "Sprite GIF reused from Lucian's 1985 sheet until he supplies 1988 art."
+        }
+      },
+      "champion": "Boston Celtics",
+      "series_score": "1-4",
+      "games": 5,
+      "finals_logo": "assets/logos/finals-1988.png",
+      "finals_logo_note": "The 1988 NBA Finals primary logo (script), SportsLogos.Net.",
+      "awards": {
+        "mvp": "Hakeem Olajuwon",
+        "mvp_team": null,
+        "dpoy": "Hakeem Olajuwon",
+        "dpoy_team": null,
+        "finals_mvp": "Larry Bird"
+      },
+      "note": "Reported by Lucian 2026-11-12: Hakeem won BOTH MVP and DPOY for 1987-88 (teams not stated); Bird Finals MVP, Celtics beat Mavericks 4-1 \u2014 Boston's first title and Dallas's first Finals in this save."
     }
   ],
   "rules": {
@@ -222,5 +270,6 @@
       "primary": "#CE1141",
       "secondary": "#C4CED4"
     }
-  }
+  },
+  "player_gif_note": "Player figures are REAL sprite GIFs built by Muse from Lucian's 3x3 sprite sheets (sprite_gif.py): 9 expression frames x 180ms, then a hold on frame 1; total loop exactly 5000ms, infinite. Team logo behind each player fills ~the whole panel box (Lucian, 2026-11-12)."
 }
