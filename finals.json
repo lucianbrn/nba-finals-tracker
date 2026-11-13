@@ -17,10 +17,10 @@
         },
         "featured_player": {
           "name": "Larry Bird",
-          "title": "BIRD",
+          "title": "Larry Bird",
           "position": "Forward",
           "jersey": "33",
-          "photo": "assets/players/bird-1984.png",
+          "photo": "Hero portrait supplied by Lucian 2026-11-12 — LONG-hair Bird (his rule: long hair = earlier-80s Finals appearances) — assets/players/bird-1984.png",
           "photo_gif": "assets/players/bird-1984.gif"
         },
         "era_logo_note": "Boston Celtics primary, 1976-1996 green/white Lucky version (era ranges per SportsLogoHistory/logos-world)"
@@ -43,7 +43,7 @@
           "position": "Guard",
           "number": 32,
           "note": "Finals MVP, owner-reported. Nickname/position/number are his standard era identifiers.",
-          "photo": "assets/players/magic-1984.png",
+          "photo": "Real photo cutout — Magic holding the championship trophy (studio portrait) — assets/players/magic-1984.png",
           "photo_gif": "assets/players/magic-1984.gif"
         },
         "era_logo_note": "Los Angeles Lakers primary, 1976-2001 version (era ranges per SportsLogoHistory/logos-world)"
@@ -69,7 +69,7 @@
           "position": "Guard",
           "number": 32,
           "note": "Finals MVP, owner-reported.",
-          "photo": "assets/players/magic-1985.png",
+          "photo": "Real photo cutout — Magic smiling, palming the ball, full body — assets/players/magic-1985.png",
           "photo_gif": "assets/players/magic-1985.gif"
         }
       },
@@ -83,10 +83,10 @@
         },
         "featured_player": {
           "name": "Larry Bird",
-          "title": "BIRD",
+          "title": "Larry Bird",
           "position": "Forward",
           "jersey": "33",
-          "photo": "assets/players/bird-1985.png",
+          "photo": "Hero portrait supplied by Lucian 2026-11-12 — LONG-hair Bird (earlier-80s appearances, same portrait as 1984) — assets/players/bird-1985.png",
           "photo_gif": "assets/players/bird-1985.gif"
         },
         "note": "East champion confirmed by Lucian 2026-11-12: Lakers beat Celtics in 1985. East featured player still not named."
@@ -107,7 +107,7 @@
       "file": "03",
       "season": "1985-86",
       "finals_year": 1986,
-      "status": "recorded_east_featured_player_pending",
+      "status": "recorded",
       "west": {
         "team": "Los Angeles Lakers",
         "logo": "assets/logos/lal-1984.png",
@@ -118,10 +118,10 @@
         },
         "featured_player": {
           "name": "Magic Johnson",
-          "title": "MAGIC",
+          "title": "Magic Johnson",
           "position": "Guard",
           "jersey": "32",
-          "photo": null
+          "photo": "Hero portrait supplied by Lucian 2026-11-12 (hands on hips, Lakers #32), cut to a giant PNG — assets/players/magic-1986.png"
         }
       },
       "east": {
@@ -132,8 +132,14 @@
           "primary": "#006BB6",
           "secondary": "#ED174C"
         },
-        "featured_player": null,
-        "note": "Per Lucian's report, the 76ers featured Michael Jordan and Moses Malone; the featured-player slot awaits Lucian's pick."
+        "featured_player": {
+          "name": "Michael Jordan",
+          "title": "Michael Jordan",
+          "position": "Guard",
+          "jersey": "23",
+          "photo": "Real photo cutout — Jordan standing in the red Bulls jersey (real-life photo; in this save he plays for Philadelphia) — assets/players/jordan-1986.png"
+        },
+        "note": "Per Lucian's report, the 76ers featured Michael Jordan and Moses Malone; the featured-player slot was left open until Lucian supplied the '86 sprite art — the sheet he sent is Jordan's, settling the panel as Jordan."
       },
       "champion": "Los Angeles Lakers",
       "series_score": "4-3",
@@ -163,10 +169,10 @@
         },
         "featured_player": {
           "name": "Magic Johnson",
-          "title": "MAGIC",
+          "title": "Magic Johnson",
           "position": "Guard",
           "jersey": "32",
-          "photo": "assets/players/magic-1985.png",
+          "photo": "Real photo cutout — Magic dribbling left in game action — assets/players/magic-1987.png",
           "photo_gif": "assets/players/magic-1985.gif",
           "note": "Art reused from Lucian's 1985 upload until he supplies 1987 art."
         }
@@ -181,10 +187,10 @@
         },
         "featured_player": {
           "name": "Michael Jordan",
-          "title": "AIR JORDAN",
+          "title": "Michael Jordan",
           "position": "Guard",
           "jersey": "23",
-          "photo": null
+          "photo": "Real photo cutout — Jordan dribbling in the 'Chicago' script jersey (real-life photo; 76ers in this save) — assets/players/jordan-1987.png"
         }
       },
       "champion": "Philadelphia 76ers",
@@ -205,7 +211,7 @@
       "file": "05",
       "season": "1987-88",
       "finals_year": 1988,
-      "status": "recorded_west_featured_pending",
+      "status": "recorded",
       "west": {
         "team": "Dallas Mavericks",
         "logo": "assets/logos/dal-1981.png",
@@ -214,8 +220,14 @@
           "primary": "#00538C",
           "secondary": "#00843D"
         },
-        "featured_player": null,
-        "note": "West featured player NOT yet named by Lucian \u2014 do not guess (era Mavs stars in real life: Aguirre, Blackman, Harper; this save may differ)."
+        "featured_player": {
+          "name": "Mark Aguirre",
+          "title": "Mark Aguirre",
+          "position": "Forward",
+          "jersey": "24",
+          "photo": "Hero portrait supplied by Lucian 2026-11-12 (hands on hips, Dallas #24), cut to a giant PNG — assets/players/aguirre-1988.png"
+        },
+        "note": "Featured Maverick settled by Lucian's supplied '88 sprite art: Mark Aguirre, wearing his Dallas #24."
       },
       "east": {
         "team": "Boston Celtics",
@@ -227,10 +239,10 @@
         },
         "featured_player": {
           "name": "Larry Bird",
-          "title": "BIRD",
+          "title": "Larry Bird",
           "position": "Forward",
           "jersey": "33",
-          "photo": "assets/players/bird-1985.png",
+          "photo": "Hero portrait supplied by Lucian 2026-11-12 — SHORT-hair Bird (his rule: short hair = his FMVP year) — assets/players/bird-1988.png",
           "photo_gif": "assets/players/bird-1985.gif",
           "note": "Sprite GIF reused from Lucian's 1985 sheet until he supplies 1988 art."
         }
@@ -247,13 +259,13 @@
         "dpoy_team": null,
         "finals_mvp": "Larry Bird"
       },
-      "note": "Reported by Lucian 2026-11-12: Hakeem won BOTH MVP and DPOY for 1987-88 (teams not stated); Bird Finals MVP, Celtics beat Mavericks 4-1 \u2014 Boston's first title and Dallas's first Finals in this save."
+      "note": "Reported by Lucian 2026-11-12: Hakeem won BOTH MVP and DPOY for 1987-88 (teams not stated); Bird Finals MVP, Celtics beat Mavericks 4-1 — Boston's first title and Dallas's first Finals in this save."
     },
     {
       "file": "06",
       "season": "1988-89",
       "finals_year": 1989,
-      "status": "recorded_east_featured_pending",
+      "status": "recorded_east_featured_photo_in_name_pending",
       "west": {
         "team": "Dallas Mavericks",
         "logo": "assets/logos/dal-1981.png",
@@ -264,11 +276,12 @@
         },
         "featured_player": {
           "name": "Mark Aguirre",
-          "title": "AGUIRRE",
+          "title": "Mark Aguirre",
           "position": "Forward",
-          "jersey": "23",
-          "photo": null,
-          "note": "Finals MVP. Jersey 23 is his real-life Dallas number; photo pending Lucian's art."
+          "jersey": "24",
+          "photo": "Real photo cutout — from Aguirre's 1989-90 Topps card photo, shooting form — assets/players/aguirre-1989.png",
+          "note": "Finals MVP. Jersey 23 is his real-life Dallas number; photo pending Lucian's art.",
+          "jersey_note": "Corrected from 23 to 24 — Aguirre's Dallas number, per Lucian's supplied '88 sheet art (23 was his later Detroit number)."
         }
       },
       "east": {
@@ -279,8 +292,15 @@
           "primary": "#98002E",
           "secondary": "#F9A01B"
         },
-        "featured_player": null,
-        "note": "East featured player NOT yet named by Lucian \u2014 do not guess."
+        "featured_player": {
+          "name": null,
+          "title": null,
+          "position": null,
+          "jersey": "12",
+          "photo": "Tighter replacement photo supplied by Lucian 2026-11-12 (Heat #12, waist-up), cut to a giant PNG — assets/players/heat-1989.png",
+          "note": "Lucian supplied the photo for the '89 Heat panel but has not named the player — name/position/title await his word. Do not guess."
+        },
+        "note": "East featured player NOT yet named by Lucian — do not guess."
       },
       "champion": "Dallas Mavericks",
       "series_score": "4-2",
@@ -294,7 +314,7 @@
         "dpoy_team": null,
         "finals_mvp": "Mark Aguirre"
       },
-      "note": "Reported by Lucian 2026-11-12: Jordan MVP, Hakeem DPOY (teams not stated); Aguirre Finals MVP as Dallas beats Miami 4-2 \u2014 the Mavericks' first title in this save, over an expansion-era Heat team in the Finals in its second season."
+      "note": "Reported by Lucian 2026-11-12: Jordan MVP, Hakeem DPOY (teams not stated); Aguirre Finals MVP as Dallas beats Miami 4-2 — the Mavericks' first title in this save, over an expansion-era Heat team in the Finals in its second season."
     },
     {
       "file": "07",
@@ -310,7 +330,7 @@
           "secondary": "#EF5376"
         },
         "featured_player": null,
-        "note": "West featured player NOT yet named by Lucian \u2014 do not guess."
+        "note": "West featured player NOT yet named by Lucian — do not guess."
       },
       "east": {
         "team": "New Jersey Nets",
@@ -322,10 +342,10 @@
         },
         "featured_player": {
           "name": "Chris Mullin",
-          "title": "MULLY",
+          "title": "Chris Mullin",
           "position": "Forward",
           "jersey": "17",
-          "photo": null,
+          "photo": "Real photo cutout — from Mullin's 1992-93 SkyBox card photo, Warriors #17 (real-life photo; Nets in this save) — assets/players/mullin-1990.png",
           "note": "Finals MVP (on the Nets in this save). Jersey 17 is his real-life career number; photo pending Lucian's art."
         }
       },
@@ -341,7 +361,7 @@
         "dpoy_team": null,
         "finals_mvp": "Chris Mullin"
       },
-      "note": "Reported by Lucian 2026-11-12: Jordan MVP, Hakeem DPOY (teams not stated); Mullin Finals MVP as the Nets beat the Spurs 4-1 \u2014 first title/Finals for both franchises in this save."
+      "note": "Reported by Lucian 2026-11-12: Jordan MVP, Hakeem DPOY (teams not stated); Mullin Finals MVP as the Nets beat the Spurs 4-1 — first title/Finals for both franchises in this save."
     }
   ],
   "rules": {
@@ -351,7 +371,7 @@
       "Finals MVP"
     ],
     "entry_structure": "West champion LEFT / year-specific Finals logo CENTER / East champion RIGHT, using era-accurate team logos and team colors for that season.",
-    "featured_players": "Two Y2K-style players per Finals: the best player on each Finals team, nickname as the big title in a font/color picked for that player, meta NAME \u00b7 POSITION \u00b7 TEAM, team logo, jersey number, transparent cutout from a photo Lucian supplies.",
+    "featured_players": "Two Y2K-style players per Finals: the best player on each Finals team, nickname as the big title in a font/color picked for that player, meta NAME · POSITION · TEAM, team logo, jersey number, transparent cutout from a photo Lucian supplies.",
     "grading": "At the end of the save, graded against real-life Houston: lost the 1986 Finals, first titles 1993-94 and 1994-95.",
     "source": "Only results Lucian reports from his save. Never invent players, stats, teams, or results. Never correct his save to real-life history."
   },
@@ -368,6 +388,8 @@
   "player_gif_note": "Player figures are REAL sprite GIFs built by Muse from Lucian's 3x3 sprite sheets (sprite_gif.py): 9 expression frames x 180ms, then a hold on frame 1; total loop exactly 5000ms, infinite. Team logo behind each player fills ~the whole panel box (Lucian, 2026-11-12).",
   "design": {
     "season_layout": "Each season is ONE combined card. NO top matchup row: the Larry O'Brien trophy sits BETWEEN the two player GIF panels, with the year's real NBA Finals logo (era logoman for 1984/85) and the series score + champion under it (Lucian, 2026-11-12).",
-    "title_fonts": "Player nickname titles use their team's font (Eriq P. Jaffe's NBA team lettering recreations): NBA Lakers, NBA Celtics, NBA 76ers, NBA Mavericks in assets/fonts/."
+    "title_fonts": "Player nickname titles use their team's font (Eriq P. Jaffe's NBA team lettering recreations): NBA Lakers, NBA Celtics, NBA 76ers, NBA Mavericks in assets/fonts/.",
+    "titles": "Panel titles are the player's first and last name in their team's lettering font (Lucian, 2026-11-12) — no nicknames.",
+    "player_art": "REAL player photos turned into giant cutout PNGs (Lucian, 2026-11-12 — every sprite GIF removed). Jordan's and Mullin's real photos show their real-life teams (Bulls/Warriors); in this save they play for the 76ers/Nets."
   }
 }
