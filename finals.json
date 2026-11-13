@@ -43,7 +43,7 @@
     {
       "season": "1984-85",
       "finals_year": 1985,
-      "status": "finals_reported_east_team_pending",
+      "status": "recorded_east_featured_player_pending",
       "west": {
         "team": "Los Angeles Lakers",
         "era_logo": "assets/logos/lal-1984.png",
@@ -61,11 +61,15 @@
         }
       },
       "east": {
-        "team": null,
-        "era_logo": null,
-        "colors": null,
+        "team": "Boston Celtics",
+        "era_logo": "assets/logos/bos-1984.png",
+        "era_logo_note": "Boston Celtics primary, 1976-1996 green/white Lucky version",
+        "colors": {
+          "primary": "#007A33",
+          "secondary": "#BA9653"
+        },
         "featured_player": null,
-        "note": "East champion not stated in Lucian's 1985 report \u2014 do not assume it was Boston."
+        "note": "East champion confirmed by Lucian 2026-11-12: Lakers beat Celtics in 1985. East featured player still not named."
       },
       "finals_logo": null,
       "series_score": "4-3",
