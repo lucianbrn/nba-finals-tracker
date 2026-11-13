@@ -105,6 +105,30 @@ footer b{color:#ddd}
 .versus .score{font-size:2.1rem}
 .versus .champ{font-size:.64rem}
 @media (max-width:760px){.versus{gap:6px}.versus .trophy{height:56px}.versus .flogo{width:60px}.versus .vlogo{width:26px}.versus .score{font-size:1.05rem}.versus .champ{font-size:.48rem;letter-spacing:.14em}}
+
+/* mobile fit: stack the card — full-width player panels, versus becomes a strip between them */
+@media (max-width:760px){
+.players{grid-template-columns:1fr;gap:16px;margin-top:24px}
+.panel{padding:20px 16px 22px}
+.panel h2{font-size:2.15rem}
+.meta{font-size:11px;margin-top:12px}
+.figwrap{margin-top:14px}
+.playerimg{height:320px}
+.jno{font-size:1.8rem;margin-top:10px}
+.cutout{height:150px;font-size:9px}
+.versus{flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:center;gap:8px 16px;padding:4px 0}
+.versus .trophy{height:54px}
+.versus .flogo{width:76px;padding:5px 6px}
+.versus .vlogo{width:34px}
+.versus .score{font-size:1.7rem}
+.versus .champ{flex:1 1 100%;font-size:.58rem;letter-spacing:.18em}
+.awards{gap:8px;margin-top:22px}
+.award{padding:12px 6px}
+.award .alabel{font-size:7.5px;letter-spacing:.18em}
+.award .aname{font-size:.98rem}
+.sub{font-size:10px;letter-spacing:.13em;line-height:2}
+.yearline{font-size:9.5px;letter-spacing:.2em}
+}
 </style></head><body>
 <div class="scan"></div><div class="rec"><i></i>REC</div>
 <nav><a href="#finals-1984">1984 Finals</a><a href="#finals-1985">1985 Finals</a><a href="#finals-1986">1986 Finals</a><a href="#finals-1987">1987 Finals</a><a href="#finals-1988">1988 Finals</a><a href="#finals-1989">1989 Finals</a><a href="#finals-1990">1990 Finals</a><a href="#ledger">Ledger</a><a href="#grade">Grade</a></nav>
