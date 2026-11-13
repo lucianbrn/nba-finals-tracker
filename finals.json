@@ -43,7 +43,7 @@
           "position": "Guard",
           "number": 32,
           "note": "Finals MVP, owner-reported. Nickname/position/number are his standard era identifiers.",
-          "photo": "Real photo cutout — Magic holding the championship trophy (studio portrait) — assets/players/magic-1984.png",
+          "photo": "Hero portrait supplied by Lucian (hands on hips, Lakers #32) — Lucian's call 2026-11-13: ALL Magic Johnson panels use this one portrait — assets/players/magic-1984.png",
           "photo_gif": "assets/players/magic-1984.gif"
         },
         "era_logo_note": "Los Angeles Lakers primary, 1976-2001 version (era ranges per SportsLogoHistory/logos-world)"
@@ -69,7 +69,7 @@
           "position": "Guard",
           "number": 32,
           "note": "Finals MVP, owner-reported.",
-          "photo": "Real photo cutout — Magic smiling, palming the ball, full body — assets/players/magic-1985.png",
+          "photo": "Hero portrait supplied by Lucian (hands on hips, Lakers #32) — Lucian's call 2026-11-13: ALL Magic Johnson panels use this one portrait — assets/players/magic-1985.png",
           "photo_gif": "assets/players/magic-1985.gif"
         }
       },
@@ -121,7 +121,7 @@
           "title": "Magic Johnson",
           "position": "Guard",
           "jersey": "32",
-          "photo": "Hero portrait supplied by Lucian 2026-11-12 (hands on hips, Lakers #32), cut to a giant PNG — assets/players/magic-1986.png"
+          "photo": "Hero portrait supplied by Lucian (hands on hips, Lakers #32) — Lucian's call 2026-11-13: ALL Magic Johnson panels use this one portrait — assets/players/magic-1986.png"
         }
       },
       "east": {
@@ -137,7 +137,7 @@
           "title": "Michael Jordan",
           "position": "Guard",
           "jersey": "23",
-          "photo": "Real photo cutout — Jordan standing in the red Bulls jersey (real-life photo; in this save he plays for Philadelphia) — assets/players/jordan-1986.png"
+          "photo": "Hero portrait supplied by Lucian 2026-11-13 (hands on hips, red Philadelphia 76ers #23) — his call: this one portrait for ALL 76ers Finals — assets/players/jordan-1986.png"
         },
         "note": "Per Lucian's report, the 76ers featured Michael Jordan and Moses Malone; the featured-player slot was left open until Lucian supplied the '86 sprite art — the sheet he sent is Jordan's, settling the panel as Jordan."
       },
@@ -172,7 +172,7 @@
           "title": "Magic Johnson",
           "position": "Guard",
           "jersey": "32",
-          "photo": "Real photo cutout — Magic dribbling left in game action — assets/players/magic-1987.png",
+          "photo": "Hero portrait supplied by Lucian (hands on hips, Lakers #32) — Lucian's call 2026-11-13: ALL Magic Johnson panels use this one portrait — assets/players/magic-1987.png",
           "photo_gif": "assets/players/magic-1985.gif",
           "note": "Art reused from Lucian's 1985 upload until he supplies 1987 art."
         }
@@ -190,7 +190,7 @@
           "title": "Michael Jordan",
           "position": "Guard",
           "jersey": "23",
-          "photo": "Real photo cutout — Jordan dribbling in the 'Chicago' script jersey (real-life photo; 76ers in this save) — assets/players/jordan-1987.png"
+          "photo": "Hero portrait supplied by Lucian 2026-11-13 (hands on hips, red Philadelphia 76ers #23) — his call: this one portrait for ALL 76ers Finals — assets/players/jordan-1987.png"
         }
       },
       "champion": "Philadelphia 76ers",
@@ -320,7 +320,7 @@
       "file": "07",
       "season": "1989-90",
       "finals_year": 1990,
-      "status": "recorded_west_featured_pending",
+      "status": "recorded_west_featured_photo_in_name_pending",
       "west": {
         "team": "San Antonio Spurs",
         "logo": "assets/logos/sas-1989.png",
@@ -329,8 +329,15 @@
           "primary": "#00B2A9",
           "secondary": "#EF5376"
         },
-        "featured_player": null,
-        "note": "West featured player NOT yet named by Lucian — do not guess."
+        "featured_player": {
+          "name": null,
+          "title": null,
+          "position": null,
+          "jersey": "33",
+          "photo": "Hero portrait supplied by Lucian 2026-11-13 (hands on hips, Spurs #33), cut to a giant PNG — assets/players/spurs-1990.png",
+          "note": "Lucian supplied the photo for the '90 Spurs panel but has not named the player — name/position/title await his word. Do not guess."
+        },
+        "note": "West featured photo supplied by Lucian 2026-11-13; player not yet named by Lucian — do not guess."
       },
       "east": {
         "team": "New Jersey Nets",
@@ -345,7 +352,7 @@
           "title": "Chris Mullin",
           "position": "Forward",
           "jersey": "17",
-          "photo": "Real photo cutout — from Mullin's 1992-93 SkyBox card photo, Warriors #17 (real-life photo; Nets in this save) — assets/players/mullin-1990.png",
+          "photo": "Hero portrait supplied by Lucian 2026-11-13 (hands on hips, tie-dye New Jersey Nets #17 — a real Nets jersey, replacing the Warriors card photo) — assets/players/mullin-1990.png",
           "note": "Finals MVP (on the Nets in this save). Jersey 17 is his real-life career number; photo pending Lucian's art."
         }
       },
@@ -385,11 +392,12 @@
       "secondary": "#C4CED4"
     }
   },
-  "player_gif_note": "Player figures are REAL sprite GIFs built by Muse from Lucian's 3x3 sprite sheets (sprite_gif.py): 9 expression frames x 180ms, then a hold on frame 1; total loop exactly 5000ms, infinite. Team logo behind each player fills ~the whole panel box (Lucian, 2026-11-12).",
+  "player_gif_note": "Player figures are REAL PHOTOS cut to giant transparent PNGs (sprite GIFs removed 2026-11-12 at Lucian's order). Pose rule (Lucian, 2026-11-13): everyone hands on hips; one portrait per player reused across their Finals. Only Aguirre '89 (shooting-form photo) still breaks the pose rule — awaiting a hands-on-hips portrait.",
   "design": {
     "season_layout": "Each season is ONE combined card. NO top matchup row: the Larry O'Brien trophy sits BETWEEN the two player GIF panels, with the year's real NBA Finals logo (era logoman for 1984/85) and the series score + champion under it (Lucian, 2026-11-12).",
     "title_fonts": "Player nickname titles use their team's font (Eriq P. Jaffe's NBA team lettering recreations): NBA Lakers, NBA Celtics, NBA 76ers, NBA Mavericks in assets/fonts/.",
     "titles": "Panel titles are the player's first and last name in their team's lettering font (Lucian, 2026-11-12) — no nicknames.",
-    "player_art": "REAL player photos turned into giant cutout PNGs (Lucian, 2026-11-12 — every sprite GIF removed). Jordan's and Mullin's real photos show their real-life teams (Bulls/Warriors); in this save they play for the 76ers/Nets."
+    "player_art": "REAL player photos turned into giant cutout PNGs (Lucian, 2026-11-12 — every sprite GIF removed). POSE RULE (Lucian, 2026-11-13): every featured player on the site is HANDS ON HIPS — one supplied hero portrait per player, reused across all of that player's Finals (Magic: same portrait '84-'87; Jordan: same Sixers portrait '86+'87; Bird: long hair '84/'85, short hair '88 FMVP year). The old Bulls/Warriors jersey caveats are RESOLVED: Jordan's portrait is a real 76ers jersey and Mullin's is a real Nets jersey, both supplied by Lucian.",
+    "conference_sides": "Western Conference team ALWAYS on the LEFT, Eastern Conference team ALWAYS on the RIGHT (Lucian, 2026-11-13). Series score reads West wins — East wins."
   }
 }
