@@ -1,0 +1,65 @@
+{
+  "entries": [
+    {
+      "awards": {
+        "mvp": "Magic Johnson",
+        "dpoy": "Moses Malone",
+        "finals_mvp": "Magic Johnson",
+        "note": "MVP and DPOY owner-reported 2026-11-12 for this Houston save; teams not stated in that report, so no team is shown for them."
+      },
+      "champion": "Los Angeles Lakers",
+      "east": {
+        "team": "Boston Celtics",
+        "era_logo": "assets/logos/bos-1984.png",
+        "colors": {
+          "primary": "#007A33",
+          "secondary": "#BA9653"
+        },
+        "featured_player": null,
+        "era_logo_note": "Boston Celtics primary, 1976-1996 green/white Lucky version (era ranges per SportsLogoHistory/logos-world)"
+      },
+      "finals_logo": null,
+      "finals_year": 1984,
+      "season": "1983-84",
+      "series_score": "4-0",
+      "status": "finals_reported_east_featured_player_pending",
+      "west": {
+        "team": "Los Angeles Lakers",
+        "era_logo": "assets/logos/lal-1984.png",
+        "colors": {
+          "primary": "#552583",
+          "secondary": "#FDB927"
+        },
+        "featured_player": {
+          "name": "Magic Johnson",
+          "nickname_title": "Magic",
+          "position": "Guard",
+          "number": 32,
+          "note": "Finals MVP, owner-reported. Nickname/position/number are his standard era identifiers."
+        },
+        "era_logo_note": "Los Angeles Lakers primary, 1976-2001 version (era ranges per SportsLogoHistory/logos-world)"
+      }
+    }
+  ],
+  "rules": {
+    "awards_per_season": [
+      "League MVP",
+      "Defensive Player of the Year",
+      "Finals MVP"
+    ],
+    "entry_structure": "West champion LEFT / year-specific Finals logo CENTER / East champion RIGHT, using era-accurate team logos and team colors for that season.",
+    "featured_players": "Two Y2K-style players per Finals: the best player on each Finals team, nickname as the big title in a font/color picked for that player, meta NAME \u00b7 POSITION \u00b7 TEAM, team logo, jersey number, transparent cutout from a photo Lucian supplies.",
+    "grading": "At the end of the save, graded against real-life Houston: lost the 1986 Finals, first titles 1993-94 and 1994-95.",
+    "source": "Only results Lucian reports from his save. Never invent players, stats, teams, or results. Never correct his save to real-life history."
+  },
+  "save": {
+    "era": "Magic vs Bird",
+    "game": "NBA 2K MyNBA Eras",
+    "start_season": "1983-84",
+    "team": "Houston Rockets",
+    "team_colors": {
+      "primary": "#CE1141",
+      "secondary": "#C4CED4"
+    }
+  }
+}
