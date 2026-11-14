@@ -619,6 +619,16 @@
         "note": "Lucian 2026-11-13: 'Rockets win in 7' and 'Pippen FMVP'."
       },
       "champion": "Houston Rockets"
+    },
+    {
+      "season": "1995-96",
+      "awards": {
+        "mvp": "Karl Malone",
+        "dpoy": "Scottie Pippen",
+        "finals_mvp": null,
+        "note": "Regular-season awards reported by Lucian 2026-11-13 ('1996 most valuable player is Carl Malone defensive player of the year is Scottie Pippen' — Karl Malone, spelled 'Carl' in his message; recorded under the name used throughout this tracker). No teams stated, so none recorded. Pippen's third straight DPOY. Finals not yet reported."
+      },
+      "status": "regular_season_awards_only_finals_not_yet_reported"
     }
   ],
   "rules": {
