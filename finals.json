@@ -625,10 +625,49 @@
       "awards": {
         "mvp": "Karl Malone",
         "dpoy": "Scottie Pippen",
-        "finals_mvp": null,
+        "finals_mvp": "Shawn Kemp",
         "note": "Regular-season awards reported by Lucian 2026-11-13 ('1996 most valuable player is Carl Malone defensive player of the year is Scottie Pippen' — Karl Malone, spelled 'Carl' in his message; recorded under the name used throughout this tracker). No teams stated, so none recorded. Pippen's third straight DPOY. Finals not yet reported."
       },
-      "status": "regular_season_awards_only_finals_not_yet_reported"
+      "status": "recorded",
+      "west": {
+        "team": "Dallas Mavericks",
+        "city": "Dallas",
+        "colors": {
+          "primary": "#00538C",
+          "secondary": "#00843D"
+        },
+        "featured_player": {
+          "name": "Dino Radja",
+          "note": "Dallas's featured player again (Lucian confirmed 'radja again'); the same Lucian-supplied 1994 portrait is reused — the Mavericks' royal-blue uniform was unchanged in 1995-96.",
+          "title": "Dino Radja",
+          "position": "Forward",
+          "jersey": "40",
+          "photo": "Reuses assets/players/radja-1994.png (Lucian-supplied hands-on-hips portrait, 1994)."
+        }
+      },
+      "east": {
+        "team": "Cleveland Cavaliers",
+        "city": "Cleveland",
+        "colors": {
+          "primary": "#E35205",
+          "secondary": "#7BAFD4"
+        },
+        "featured_player": {
+          "name": "Shawn Kemp",
+          "note": "Finals MVP of 1996 per Lucian — on the Cleveland Cavaliers in this save (team named by Lucian when asked). Spelled 'Sean Kemp' in his report; recorded as Shawn Kemp.",
+          "title": "Shawn Kemp",
+          "position": "Forward",
+          "jersey": "40",
+          "photo": "Hands-on-hips portrait in the Cavaliers' black road uniform supplied by Lucian 2026-11-13 (supersedes Muse's uniform edit of a Sonics photo) — assets/players/kemp-1996.png"
+        }
+      },
+      "series": {
+        "west_wins": 3,
+        "east_wins": 4,
+        "display": "3 — 4",
+        "note": "Lucian 2026-11-13: 'Sean Kemp is finals most valuable player in the 1996 finals beating the Mavericks four to three' + 'Kemp is on the Cavs' + 'yes it's radja again' (Dallas featured player)."
+      },
+      "champion": "Cleveland Cavaliers"
     }
   ],
   "rules": {
