@@ -493,7 +493,7 @@
           "title": "Mark Aguirre",
           "position": "Forward",
           "jersey": "24",
-          "photo": "Same hands-on-hips portrait as 1988/1989, uniform recolored to Dallas's 1992-93 royal-blue road colorway (the Mavs reverted from green to blue in 1992-93) — assets/players/aguirre-1993.png"
+          "photo": "Hands-on-hips portrait in the Mavericks' 1992-93 royal-blue road uniform, supplied by Lucian 2026-11-13 (supersedes Muse's recolor edit) — assets/players/aguirre-1993.png"
         }
       },
       "east": {
@@ -509,7 +509,7 @@
           "title": "Vlade Divac",
           "position": "Center",
           "jersey": "12",
-          "photo": "Real early-90s hands-on-hips photo of Divac (Lakers era), uniform edited to Indiana's 1992-93 navy Flo-Jo design with the gold script wordmark; 12 was his Lakers-era number — assets/players/divac-1993.png"
+          "photo": "Hands-on-hips portrait in the Pacers' navy Flo-Jo uniform, supplied by Lucian 2026-11-13 (supersedes Muse's uniform edit) — assets/players/divac-1993.png"
         }
       },
       "series": {
@@ -569,7 +569,7 @@
     "champion_trophy_backdrop": "A featured player whose team WON that Finals gets a big Larry O'Brien trophy behind his name in his panel (.trophybg, dimmed so the name stands out against it) (Lucian, 2026-11-13).",
     "uniform_evolution": "Lucian 2026-11-13: audit every player's uniform per year; where a team's uniform changed between a player's Finals appearances, the portrait's uniform evolves to that year's design (his example: Mullin's '90 traditional vs '91 tie-dye Nets). Applied 2026-11-13 with pose-locked image edits: Jordan 1992 (1978-91 classic -> 1991-92 Sixers redesign), Aguirre 1993 (green -> 1992-93 royal blue), Magic 1987/1991/1992 (pre-1986-87 tilted script + big numbers -> straightened script + smaller number font). Researched correct and left alone: Lakers '84-'86, Celtics, Sixers '86/'87, Mavs '88/'89 green, Heat '89, Spurs '90, Mullin (set by Lucian).",
     "pacers_title": "Pacers titles: gold #FDBB30 text with navy #002D62 shadow (navy as text would vanish on the black stage).",
-    "finals_logos": "Lucian 2026-11-13: Finals logos enlarged and shown as the bare design — white box removed (transparent), .flogo 176px desktop / 84px mobile.",
+    "finals_logos": "Lucian 2026-11-13: Finals logos enlarged and shown as the bare design — white box removed (transparent), .flogo 168px desktop / 84px mobile. Follow-up fix the same day: white trapped inside the letterforms removed — digit counters keyed open, and the white script fills of the 1986-88 and 1991-93 logos recolored to each logo's own NBA blue so the whole set matches the 1989/1990 generation (blue script, red year, blue NBA).",
     "era_ui": "Lucian 2026-11-13: the UI treatment itself evolves by year — era-a 1984-85 heavy analog (scanlines .45, chromatic fringe on players, typewriter yearline), era-b 1986-87 (.26), era-c 1988-89 (.12), era-d 1990 on clean digital (no scanlines, crisper contrast).",
     "ledger_removed": "The Ledger section was removed 2026-11-13 at Lucian's order; the data lives in finals.json + README."
   }

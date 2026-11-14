@@ -30,5 +30,5 @@ Static site (index.html + assets/ + finals.json). Pushed to GitHub; Vercel impor
 
 - **1991-92:** Los Angeles Lakers 4-1 Philadelphia 76ers · Champion Lakers · MVP Magic Johnson · DPOY Hakeem Olajuwon · Finals MVP Magic Johnson · West featured player: Magic Johnson (older-Magic portrait, same as 1991) · East featured player: Michael Jordan · Real 1992 Finals logo centered.
 
-- **1992-93:** Dallas Mavericks 3-4 Indiana Pacers · Champion Pacers · MVP Chris Mullin · DPOY Hakeem Olajuwon · Finals MVP Vlade Divac · West featured player: Mark Aguirre (portrait recolored to the Mavs' 1992-93 royal-blue road uniform) · East featured player: Vlade Divac (real hands-on-hips photo, uniform edited to Indiana's navy Flo-Jo design) · Real 1993 Finals logo centered.
+- **1992-93:** Dallas Mavericks 3-4 Indiana Pacers · Champion Pacers · MVP Chris Mullin · DPOY Hakeem Olajuwon · Finals MVP Vlade Divac · West featured player: Mark Aguirre · East featured player: Vlade Divac (both hands-on-hips portraits supplied by Lucian, in the Mavs' 1992-93 royal-blue road uniform and the Pacers' navy Flo-Jo design) · Real 1993 Finals logo centered.
 - **1993-94 (in progress):** Regular-season awards reported — MVP Scottie Pippen · DPOY Scottie Pippen (both with the Houston Rockets). Finals not yet reported; card comes when they are.
