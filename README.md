@@ -28,4 +28,4 @@ Static site (index.html + assets/ + finals.json). Pushed to GitHub; Vercel impor
 
 - **1990-91:** New Jersey Nets 4-1 Los Angeles Lakers · Champion Nets (back-to-back) · West featured player: Magic Johnson (distinct older-Magic portrait supplied by Lucian 2026-11-13 for this year) · East featured player: Chris Mullin (cloud tie-dye Nets portrait) · Real 1991 Finals logo + 1990-97 Nets logo · Series score per Lucian's tentative recollection · MVP Patrick Ewing · DPOY Hakeem Olajuwon · Finals MVP still pending his report.
 
-- **1991-92 (in progress):** Regular-season awards reported — MVP Magic Johnson · DPOY Hakeem Olajuwon. Finals not yet reported; card comes when they are.
+- **1991-92:** Los Angeles Lakers 4-1 Philadelphia 76ers · Champion Lakers · MVP Magic Johnson · DPOY Hakeem Olajuwon · Finals MVP Magic Johnson · West featured player: Magic Johnson (older-Magic portrait, same as 1991) · East featured player: Michael Jordan · Real 1992 Finals logo centered.

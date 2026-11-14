@@ -423,13 +423,52 @@
     {
       "season": "1991-92",
       "finals_year": 1992,
+      "west": {
+        "team": "Los Angeles Lakers",
+        "city": "Los Angeles",
+        "colors": {
+          "primary": "#552583",
+          "secondary": "#FDB927"
+        },
+        "featured_player": {
+          "name": "Magic Johnson",
+          "note": "Finals MVP of 1992 per Lucian — the Lakers featured player.",
+          "title": "Magic Johnson",
+          "position": "Guard",
+          "jersey": "32",
+          "photo": "Same older-Magic portrait as 1991 (Lucian's 2026-11-13 supplied photo, reused for 1992 as the era-right portrait) — assets/players/magic-1992.png"
+        }
+      },
+      "east": {
+        "team": "Philadelphia 76ers",
+        "city": "Philadelphia",
+        "colors": {
+          "primary": "#006BB6",
+          "secondary": "#ED174C"
+        },
+        "featured_player": {
+          "name": "Michael Jordan",
+          "note": "Carried as the 76ers featured player per the save's pattern (their best player; featured in '86/'87) — Lucian named only the Finals result + FMVP for 1992, so this is open to his correction.",
+          "title": "Michael Jordan",
+          "position": "Guard",
+          "jersey": "23",
+          "photo": "Same red-76ers hands-on-hips portrait as 1986/1987 — assets/players/jordan-1992.png"
+        }
+      },
+      "series": {
+        "west_wins": 4,
+        "east_wins": 1,
+        "display": "4 — 1",
+        "note": "Lucian 2026-11-13: 'Magic Johnson is 1992 FMVP beating 76ers 4-1.'"
+      },
+      "champion": "Los Angeles Lakers",
       "awards": {
         "mvp": "Magic Johnson",
         "dpoy": "Hakeem Olajuwon",
-        "finals_mvp": null,
-        "note": "Regular-season awards reported by Lucian 2026-11-13 ('91 mvp was Ewing and 92 mvp was magic and Hakeem won dpoy both years'). Finals not yet reported — no card until they are."
+        "finals_mvp": "Magic Johnson",
+        "note": "MVP + DPOY reported by Lucian 2026-11-13 ('92 mvp was magic and Hakeem won dpoy both years'); Finals result + FMVP reported the same day."
       },
-      "status": "regular_season_awards_only_finals_not_yet_reported"
+      "status": "recorded"
     }
   ],
   "rules": {
