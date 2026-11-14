@@ -452,6 +452,7 @@
     "title_colors": "Panel title text = the team's PRIMARY color, title shadow = the team's SECONDARY color (finals.json colors), font = the team's Jaffe lettering recreation (Lucian, 2026-11-13).",
     "trophy_lean": "The Larry O'Brien trophy in the versus column is oversized and TILTS/LEANS toward the side that won that year (lean-w for West champions, lean-e for East champions) (Lucian, 2026-11-13).",
     "lakers_title": "Lakers panel titles use the team's LOGO WORDMARK font (Bodoni Black Italic style — the official wordmark is Bauer Bodoni Black Italic) in GOLD with a purple shadow (Lucian, 2026-11-13: the Jaffe jersey-block font + purple text were wrong for Magic). Other teams audited against their logo wordmarks the same day — their Jaffe lettering matches; Lakers was the one lacking.",
+    "jordan_title": "Jordan panel titles (76ers, 1986 + 1987): text RED #ED174C, shadow BLUE #006BB6 (Lucian, 2026-11-13 — overrides the default primary-text/secondary-shadow rule for Jordan; background unchanged, his correction: 'Shadow not background')",
     "champion_trophy_backdrop": "A featured player whose team WON that Finals gets a big Larry O'Brien trophy behind his name in his panel (.trophybg, dimmed so the name stands out against it) (Lucian, 2026-11-13)."
   }
 }
