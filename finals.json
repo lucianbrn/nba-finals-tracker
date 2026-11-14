@@ -352,7 +352,7 @@
           "title": "Chris Mullin",
           "position": "Forward",
           "jersey": "17",
-          "photo": "Hero portrait supplied by Lucian 2026-11-13 (hands on hips, tie-dye New Jersey Nets #17 — a real Nets jersey, replacing the Warriors card photo) — assets/players/mullin-1990.png",
+          "photo": "Traditional royal-blue Nets jersey portrait (Lucian's assignment 2026-11-13: the traditional jersey photo is 1990, the cloud tie-dye is 1991) — assets/players/mullin-1990.png (cut from his supplied classic-blue photo)",
           "note": "Finals MVP (on the Nets in this save). Jersey 17 is his real-life career number; photo pending Lucian's art."
         }
       },
@@ -369,6 +369,51 @@
         "finals_mvp": "Chris Mullin"
       },
       "note": "Reported by Lucian 2026-11-12: Jordan MVP, Hakeem DPOY (teams not stated); Mullin Finals MVP as the Nets beat the Spurs 4-1 — first title/Finals for both franchises in this save."
+    },
+    {
+      "season": "1990-91",
+      "finals_year": 1991,
+      "west": {
+        "team": "Los Angeles Lakers",
+        "city": "Los Angeles",
+        "colors": {
+          "primary": "#552583",
+          "secondary": "#FDB927"
+        },
+        "featured_player": {
+          "name": null,
+          "note": "Best Laker not yet named by Lucian — Magic Johnson is the Lakers star of this save, but the featured slot waits for his word."
+        }
+      },
+      "east": {
+        "team": "New Jersey Nets",
+        "city": "New Jersey",
+        "colors": {
+          "primary": "#0065B3",
+          "secondary": "#E31837"
+        },
+        "featured_player": {
+          "name": "Chris Mullin",
+          "note": "Featured Net for 1991 per Lucian's photo assignment (he designated the tie-dye portrait as the 1991 Mullin photo).",
+          "title": "Chris Mullin",
+          "position": "Forward",
+          "jersey": "17",
+          "photo": "Cloud tie-dye Nets jersey portrait — assets/players/mullin-1991.png (Lucian's assignment 2026-11-13: the cloud-looking tie-dye photo is Mullin's 1991 picture)"
+        }
+      },
+      "series": {
+        "west_wins": 1,
+        "east_wins": 4,
+        "display": "1 — 4",
+        "note": "Lucian 2026-11-13: 'The Nets beat the Lakers in 1991. I think it was 4 to 1.' — score is his TENTATIVE recollection, not yet confirmed."
+      },
+      "champion": "New Jersey Nets",
+      "awards": {
+        "mvp": null,
+        "dpoy": null,
+        "finals_mvp": null
+      },
+      "status": "partial_reported_champion_and_matchup_only"
     }
   ],
   "rules": {
