@@ -527,8 +527,57 @@
         "mvp": "Scottie Pippen",
         "mvp_team_stated": "Houston Rockets",
         "dpoy": "Scottie Pippen",
-        "finals_mvp": null,
+        "finals_mvp": "Dino Radja",
         "note": "Regular-season awards reported by Lucian 2026-11-13 ('rockets scottie pippen is 94 mvp and dpoy') — Pippen, on Lucian's Rockets, swept MVP and DPOY. Finals not yet reported — no card until they are."
+      },
+      "status": "recorded",
+      "west": {
+        "team": "Dallas Mavericks",
+        "city": "Dallas",
+        "colors": {
+          "primary": "#00538C",
+          "secondary": "#00843D"
+        },
+        "featured_player": {
+          "name": "Dino Radja",
+          "note": "Finals MVP of 1994 per Lucian — on the Dallas Mavericks in this save (team named by Lucian when asked).",
+          "title": "Dino Radja",
+          "position": "Forward",
+          "jersey": "40",
+          "photo": "Hands-on-hips portrait in the Mavericks' royal-blue uniform supplied by Lucian 2026-11-13 (supersedes Muse's uniform edit of a Celtics photo) — assets/players/radja-1994.png"
+        }
+      },
+      "east": {
+        "team": "New York Knicks",
+        "city": "New York",
+        "colors": {
+          "primary": "#F58426",
+          "secondary": "#006BB6"
+        },
+        "featured_player": {
+          "name": "Karl Malone",
+          "note": "Named by Lucian as the Knicks' star ('karl malones knicks').",
+          "title": "Karl Malone",
+          "position": "Forward",
+          "jersey": "32",
+          "photo": "Hands-on-hips portrait in the Knicks' royal-blue road uniform supplied by Lucian 2026-11-13 (supersedes Muse's uniform edit of a Jazz photo) — assets/players/malone-1994.png"
+        }
+      },
+      "series": {
+        "west_wins": 4,
+        "east_wins": 2,
+        "display": "4 — 2",
+        "note": "Lucian 2026-11-13: 'fmvp was dino radja beating karl malones knicks 4-2' — Radja's team (the Mavericks, named by Lucian right after) beat Malone's Knicks."
+      },
+      "champion": "Dallas Mavericks"
+    },
+    {
+      "season": "1994-95",
+      "awards": {
+        "mvp": "Scottie Pippen",
+        "dpoy": "Scottie Pippen",
+        "finals_mvp": null,
+        "note": "Regular-season awards reported by Lucian 2026-11-13 ('Pippen is 95 mvp and dpoy') — a second straight MVP+DPOY sweep for Pippen. No team stated for 1994-95, so none recorded. Finals not yet reported."
       },
       "status": "regular_season_awards_only_finals_not_yet_reported"
     }
