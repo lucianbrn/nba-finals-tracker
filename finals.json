@@ -381,8 +381,12 @@
           "secondary": "#FDB927"
         },
         "featured_player": {
-          "name": null,
-          "note": "Best Laker not yet named by Lucian — Magic Johnson is the Lakers star of this save, but the featured slot waits for his word."
+          "name": "Magic Johnson",
+          "note": "Lakers featured player for 1991 (Lucian's 'Go' on the build with Magic named).",
+          "title": "Magic Johnson",
+          "position": "Guard",
+          "jersey": "32",
+          "photo": "Same hands-on-hips hero portrait as all his Finals — assets/players/magic-1991.png"
         }
       },
       "east": {
@@ -413,7 +417,7 @@
         "dpoy": null,
         "finals_mvp": null
       },
-      "status": "partial_reported_champion_and_matchup_only"
+      "status": "card_built_awards_pending_lucian_report"
     }
   ],
   "rules": {
@@ -445,6 +449,8 @@
     "player_art": "REAL player photos turned into giant cutout PNGs (Lucian, 2026-11-12 — every sprite GIF removed). POSE RULE (Lucian, 2026-11-13): every featured player on the site is HANDS ON HIPS — one supplied hero portrait per player, reused across all of that player's Finals (Magic: same portrait '84-'87; Jordan: same Sixers portrait '86+'87; Bird: long hair '84/'85, short hair '88 FMVP year). The old Bulls/Warriors jersey caveats are RESOLVED: Jordan's portrait is a real 76ers jersey and Mullin's is a real Nets jersey, both supplied by Lucian.",
     "conference_sides": "Western Conference team ALWAYS on the LEFT, Eastern Conference team ALWAYS on the RIGHT (Lucian, 2026-11-13). Series score reads West wins — East wins.",
     "title_colors": "Panel title text = the team's PRIMARY color, title shadow = the team's SECONDARY color (finals.json colors), font = the team's Jaffe lettering recreation (Lucian, 2026-11-13).",
-    "trophy_lean": "The Larry O'Brien trophy in the versus column is oversized and TILTS/LEANS toward the side that won that year (lean-w for West champions, lean-e for East champions) (Lucian, 2026-11-13)."
+    "trophy_lean": "The Larry O'Brien trophy in the versus column is oversized and TILTS/LEANS toward the side that won that year (lean-w for West champions, lean-e for East champions) (Lucian, 2026-11-13).",
+    "lakers_title": "Lakers panel titles use the team's LOGO WORDMARK font (Bodoni Black Italic style — the official wordmark is Bauer Bodoni Black Italic) in GOLD with a purple shadow (Lucian, 2026-11-13: the Jaffe jersey-block font + purple text were wrong for Magic). Other teams audited against their logo wordmarks the same day — their Jaffe lettering matches; Lakers was the one lacking.",
+    "champion_trophy_backdrop": "A featured player whose team WON that Finals gets a big Larry O'Brien trophy behind his name in his panel (.trophybg, dimmed so the name stands out against it) (Lucian, 2026-11-13)."
   }
 }
