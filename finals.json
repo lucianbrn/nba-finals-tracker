@@ -436,6 +436,7 @@
     "game": "NBA 2K MyNBA Eras",
     "start_season": "1983-84",
     "team": "Houston Rockets",
+    "gm": "Lucian",
     "team_colors": {
       "primary": "#CE1141",
       "secondary": "#C4CED4"

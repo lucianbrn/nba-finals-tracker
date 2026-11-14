@@ -2,7 +2,7 @@
 
 A living Finals archive for Lucian's NBA 2K MyNBA Eras save.
 
-- **Save:** Houston Rockets · Magic vs Bird Era · starts 1983-84
+- **Save:** Houston Rockets (Lucian as GM) · Magic vs Bird Era · starts 1983-84
 - **Design DNA:** We In The League — black stage at all times, stage re-lights per Finals (team/player colors), nickname as the big title in a font/color picked for the player, uniform title size, meta line NAME · POSITION · TEAM, team logo, centered jersey number, transparent cutout from a photo Lucian supplies.
 - **Record format (from Lucian's earlier archive projects):** West champion LEFT / year-specific Finals mark CENTER / East champion RIGHT, era-accurate team logos and team colors for that season, champion + series score on every entry.
 - **Per season Lucian reports:** Finals teams + score + champion, league MVP, Defensive Player of the Year, Finals MVP, and the two featured players (best player on each Finals team).
