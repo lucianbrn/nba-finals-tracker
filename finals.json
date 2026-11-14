@@ -415,10 +415,10 @@
       "awards": {
         "mvp": "Patrick Ewing",
         "dpoy": "Hakeem Olajuwon",
-        "finals_mvp": null,
-        "note": "MVP + DPOY reported by Lucian 2026-11-13; teams not stated, so none recorded. Finals MVP not yet reported."
+        "finals_mvp": "Chris Mullin",
+        "note": "MVP + DPOY reported by Lucian 2026-11-13; teams not stated, so none recorded. Finals MVP Chris Mullin reported by Lucian 2026-11-13."
       },
-      "status": "card_built_mvp_dpoy_reported_finals_mvp_pending"
+      "status": "recorded"
     },
     {
       "season": "1991-92",
