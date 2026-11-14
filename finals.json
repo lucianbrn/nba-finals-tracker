@@ -576,10 +576,49 @@
       "awards": {
         "mvp": "Scottie Pippen",
         "dpoy": "Scottie Pippen",
-        "finals_mvp": null,
-        "note": "Regular-season awards reported by Lucian 2026-11-13 ('Pippen is 95 mvp and dpoy') — a second straight MVP+DPOY sweep for Pippen. No team stated for 1994-95, so none recorded. Finals not yet reported."
+        "finals_mvp": "Scottie Pippen",
+        "note": "Regular-season awards reported by Lucian 2026-11-13 ('Pippen is 95 mvp and dpoy') — a second straight MVP+DPOY sweep for Pippen. No team stated for 1994-95, so none recorded. Finals not yet reported. Portraits supplied by Lucian 2026-11-13 for the 1995 Finals: Scottie Pippen in a Houston Rockets uniform (West) and Chris Mullin in the traditional Nets uniform (East) — matchup Rockets vs Nets; series result + Finals MVP not yet reported."
       },
-      "status": "regular_season_awards_only_finals_not_yet_reported"
+      "status": "recorded",
+      "west": {
+        "team": "Houston Rockets",
+        "city": "Houston",
+        "colors": {
+          "primary": "#CE1141",
+          "secondary": "#FFB81C"
+        },
+        "featured_player": {
+          "name": "Scottie Pippen",
+          "note": "MVP, DPOY and Finals MVP of 1994-95 — a full sweep — and the star of Lucian's own Rockets, who reached the Finals for the first time in this save and won it.",
+          "title": "Scottie Pippen",
+          "position": "Forward",
+          "jersey": "33",
+          "photo": "Hands-on-hips portrait in the Rockets' red home uniform supplied by Lucian 2026-11-13 — assets/players/pippen-1995.png"
+        }
+      },
+      "east": {
+        "team": "New Jersey Nets",
+        "city": "New Jersey",
+        "colors": {
+          "primary": "#0065B3",
+          "secondary": "#E31837"
+        },
+        "featured_player": {
+          "name": "Chris Mullin",
+          "note": "Mullin's third featured Finals (1990, 1991, 1995), all with the Nets in this save.",
+          "title": "Chris Mullin",
+          "position": "Forward",
+          "jersey": "17",
+          "photo": "Hands-on-hips portrait in the traditional Nets uniform supplied by Lucian 2026-11-13 for the 1995 Finals (a different supplied photo from his 1990 card) — assets/players/mullin-1995.png"
+        }
+      },
+      "series": {
+        "west_wins": 4,
+        "east_wins": 3,
+        "display": "4 — 3",
+        "note": "Lucian 2026-11-13: 'Rockets win in 7' and 'Pippen FMVP'."
+      },
+      "champion": "Houston Rockets"
     }
   ],
   "rules": {
