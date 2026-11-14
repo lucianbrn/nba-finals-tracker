@@ -158,11 +158,10 @@
       "file": "04",
       "season": "1986-87",
       "finals_year": 1987,
-      "status": "recorded_east_photo_pending",
+      "status": "recorded",
       "west": {
         "team": "Los Angeles Lakers",
-        "logo": "assets/logos/lal-1984.png",
-        "logo_note": "Los Angeles Lakers primary, 1976-2001",
+        "city": "Los Angeles",
         "colors": {
           "primary": "#552583",
           "secondary": "#FDB927"
@@ -172,15 +171,12 @@
           "title": "Magic Johnson",
           "position": "Guard",
           "jersey": "32",
-          "photo": "Same hero portrait as 1984-1986, uniform updated to the post-1986-87 Lakers design (script straightened level, smaller number font) per the uniform-evolution rule — assets/players/magic-1987.png",
-          "photo_gif": "assets/players/magic-1985.gif",
-          "note": "Art reused from Lucian's 1985 upload until he supplies 1987 art."
+          "photo": "Young hero portrait (Lucian-supplied), post-1986-87 uniform edit — assets/players/magic-1987.png"
         }
       },
       "east": {
         "team": "Philadelphia 76ers",
-        "logo": "assets/logos/phi-1978.png",
-        "logo_note": "Philadelphia 76ers primary, 1978-1997",
+        "city": "Philadelphia",
         "colors": {
           "primary": "#006BB6",
           "secondary": "#ED174C"
@@ -190,7 +186,7 @@
           "title": "Michael Jordan",
           "position": "Guard",
           "jersey": "23",
-          "photo": "Hero portrait supplied by Lucian 2026-11-13 (hands on hips, red Philadelphia 76ers #23) — his call: this one portrait for ALL 76ers Finals — assets/players/jordan-1987.png"
+          "photo": "Hands-on-hips portrait, red 76ers classic uniform — assets/players/jordan-1987.png"
         }
       },
       "champion": "Philadelphia 76ers",
@@ -205,7 +201,13 @@
         "dpoy_team": null,
         "finals_mvp": "Michael Jordan"
       },
-      "note": "Reported by Lucian 2026-11-12: Jordan MVP (76ers) + Finals MVP, 76ers beat Lakers 4-1. Score shown side-accurate (West 1, East 4)."
+      "note": "Reported by Lucian 2026-11-12: Jordan MVP (76ers) + Finals MVP, 76ers beat Lakers 4-1. Score shown side-accurate (West 1, East 4).",
+      "series": {
+        "west_wins": 1,
+        "east_wins": 4,
+        "display": "1 — 4",
+        "note": "76ers beat the Lakers 4-1 (recorded on the card since 2026-11-12; this JSON entry's status was left un-flipped and is corrected 2026-11-13)."
+      }
     },
     {
       "file": "05",
