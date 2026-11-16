@@ -11,52 +11,59 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{background:#000;color:#f2f2f2;font-family:'Archivo',Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
-header{text-align:center;padding:64px 20px 8px}
-.kicker{font-family:'Courier Prime',monospace;letter-spacing:.42em;font-size:.72rem;color:#9a9a9a;text-transform:uppercase}
-h1{font-family:'Anton',sans-serif;font-size:clamp(2.9rem,9vw,6.4rem);line-height:.98;letter-spacing:.01em;margin:14px 0 10px;text-transform:uppercase}
-h1 .thin{color:#000;-webkit-text-stroke:2px #f2f2f2}
-.sub{color:#bdbdbd;font-size:clamp(.92rem,2.4vw,1.05rem);max-width:640px;margin:0 auto;line-height:1.55}
+body{background:#07060a;color:#f5f1e8;font-family:'Archivo',Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+header{text-align:center;padding:70px 20px 54px;background:linear-gradient(160deg,#150b36 0%,#3d0a2e 26%,#260505 52%,#150a30 76%,#171204 100%)}
+.kicker{font-family:'Courier Prime',monospace;letter-spacing:.42em;font-size:.72rem;color:#d8cfb8;text-transform:uppercase}
+h1{font-family:'Anton',sans-serif;font-size:clamp(2.9rem,9vw,6.4rem);line-height:.98;margin:14px 0 10px;text-transform:uppercase;color:#fff}
+h1 .thin{color:transparent;-webkit-text-stroke:2px #ffd94d}
+.sub{color:#e6ddc9;font-size:clamp(.92rem,2.4vw,1.05rem);max-width:640px;margin:0 auto;line-height:1.55}
 .totals{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin:30px auto 6px;max-width:900px;padding:0 16px}
-.totals div{border:1px solid #262626;background:#0a0a0a;padding:12px 20px;min-width:150px}
-.totals b{display:block;font-family:'Anton',sans-serif;font-size:1.55rem;font-weight:400}
-.totals span{font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:#8f8f8f}
-.direction{text-align:center;font-family:'Courier Prime',monospace;color:#8f8f8f;font-size:.78rem;letter-spacing:.3em;margin:26px 0 4px;text-transform:uppercase}
-.direction b{color:#f2f2f2}
-.timeline{position:relative;max-width:1180px;margin:0 auto;padding:26px 20px 10px}
-.timeline::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;transform:translateX(-50%);background:linear-gradient(#2c2c2c,#5a5a5a 55%,#ffd97a)}
-.card{position:relative;width:50%;padding:26px 44px 26px 0}
-.card.side-r{margin-left:50%;padding:26px 0 26px 44px}
-.node{position:absolute;top:44px;right:-27px;width:54px;height:54px;border-radius:50%;background:#0a0a0a;border:2px solid var(--ac);display:flex;align-items:center;justify-content:center;z-index:2}
-.card.side-r .node{right:auto;left:-27px}
-.node span{font-family:'Anton',sans-serif;font-size:1.02rem;color:var(--ac)}
-.stage{position:relative;background:radial-gradient(120% 130% at 50% 0%,color-mix(in srgb,var(--ac) 13%,#050505) 0%,#050505 62%);border:1px solid #232323;padding:30px 30px 26px;overflow:hidden}
-.crown{position:absolute;top:0;right:0;background:var(--ac);color:#000;font-family:'Anton',sans-serif;letter-spacing:.14em;font-size:.72rem;padding:6px 12px}
-.figwrap{position:relative;height:300px;display:flex;align-items:flex-end;justify-content:center;margin-bottom:8px}
-.figph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
-.figini{font-family:'Anton',sans-serif;font-size:6.2rem;line-height:1;color:transparent;-webkit-text-stroke:2px color-mix(in srgb,var(--ac) 55%,transparent)}
-.fignote{font-family:'Courier Prime',monospace;font-size:.68rem;letter-spacing:.34em;color:#6d6d6d;text-transform:uppercase}
-.artistimg{position:relative;max-height:300px;max-width:88%;object-fit:contain;filter:drop-shadow(0 14px 26px rgba(0,0,0,.75))}
-.rankline{font-family:'Courier Prime',monospace;font-size:.7rem;letter-spacing:.34em;color:var(--ac)}
-.info h2{font-family:'Anton',sans-serif;font-size:clamp(1.9rem,3.6vw,2.9rem);line-height:1.02;margin:7px 0 4px;text-transform:uppercase;text-shadow:3px 3px 0 color-mix(in srgb,var(--ac) 65%,#000)}
-.hours{display:flex;align-items:baseline;gap:10px;margin:8px 0 10px}
-.hnum{font-family:'Anton',sans-serif;font-size:2.5rem;color:var(--ac)}
-.hunit{font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;color:#9a9a9a}
-.bar{height:7px;background:#1b1b1b;margin:2px 0 16px}
+.totals div{border:1px solid rgba(255,255,255,.25);background:rgba(0,0,0,.35);padding:12px 20px;min-width:150px}
+.totals b{display:block;font-family:'Anton',sans-serif;font-size:1.55rem;font-weight:400;color:#fff}
+.totals span{font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:#cfc4a6}
+.direction{text-align:center;font-family:'Courier Prime',monospace;color:#d8cfb8;font-size:.78rem;letter-spacing:.3em;margin:26px 0 0;text-transform:uppercase}
+.direction b{color:#ffd94d}
+.card{position:relative;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:64px 26px;background:linear-gradient(178deg,var(--bg1) 0%,var(--bg2) 78%,var(--bg1) 130%);overflow:hidden}
+.ghost{position:absolute;top:50%;left:50%;transform:translate(-50%,-54%);font-family:'Anton',sans-serif;font-size:min(58vh,30rem);line-height:1;color:transparent;-webkit-text-stroke:2px color-mix(in srgb,var(--ac) 26%,transparent);pointer-events:none;user-select:none}
+.stage{position:relative;z-index:2;width:min(1120px,100%);display:flex;gap:44px;align-items:center;padding:52px 54px;background:color-mix(in srgb,var(--bg1) 55%,transparent);box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--ac) 55%,transparent),inset 0 0 140px rgba(0,0,0,.55)}
+.stage::before{content:"";position:absolute;inset:15px;border:1px solid color-mix(in srgb,var(--ac) 45%,transparent);pointer-events:none}
+.stage::after{content:"";position:absolute;inset:22px;border:1px dashed color-mix(in srgb,var(--ac) 22%,transparent);pointer-events:none}
+.card.light .stage{background:rgba(255,248,230,.25);box-shadow:inset 0 0 0 2px color-mix(in srgb,var(--ac) 65%,transparent),inset 0 0 140px rgba(90,60,10,.35)}
+.v-gothic .stage{box-shadow:inset 0 0 0 3px #000,inset 0 0 0 5px color-mix(in srgb,var(--ac) 70%,transparent),inset 0 0 150px rgba(0,0,0,.8),0 0 44px color-mix(in srgb,var(--ac) 30%,transparent)}
+.v-gold .stage{box-shadow:inset 0 0 0 2px var(--ac),inset 0 0 0 6px rgba(0,0,0,.45),inset 0 0 0 8px color-mix(in srgb,var(--ac) 60%,transparent),inset 0 0 150px rgba(0,0,0,.5),0 0 60px color-mix(in srgb,var(--ac) 25%,transparent)}
+.v-chrome .stage{box-shadow:inset 0 0 0 2px #e8e8f0,inset 0 0 0 5px color-mix(in srgb,var(--ac) 55%,transparent),inset 0 0 140px rgba(0,0,0,.6)}
+.v-poster .stage::after{border-style:solid;border-width:3px}
+.v-pastel .stage{box-shadow:inset 0 0 0 3px color-mix(in srgb,var(--ac) 65%,transparent),inset 0 0 0 9px rgba(255,255,255,.14),inset 0 0 140px rgba(0,0,0,.45)}
+.v-rain::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(97deg,transparent 0 42px,color-mix(in srgb,var(--ac) 14%,transparent) 42px 43px,transparent 43px 90px);pointer-events:none}
+.v-haze::before{content:"";position:absolute;inset:0;background:radial-gradient(42% 34% at 18% 22%,color-mix(in srgb,var(--ac) 20%,transparent),transparent 70%),radial-gradient(38% 30% at 84% 80%,color-mix(in srgb,var(--ac) 16%,transparent),transparent 70%);pointer-events:none}
+.bolts{position:absolute;inset:0;pointer-events:none;z-index:1}
+.bolt{position:absolute;width:26px;height:44px;background:linear-gradient(180deg,#ffe97a,#f5b921);clip-path:polygon(58% 0,100% 0,74% 36%,100% 36%,28% 100%,44% 60%,14% 60%);transform:rotate(var(--r)) scale(var(--s));filter:drop-shadow(0 0 6px rgba(255,217,77,.55))}
+.crown{position:absolute;top:0;right:0;z-index:3;background:var(--ac);color:#171204;font-family:'Anton',sans-serif;letter-spacing:.14em;font-size:.78rem;padding:8px 14px}
+.figwrap{flex:0 0 auto;display:flex;align-items:flex-end;justify-content:center;min-width:0}
+.artistimg{max-height:52vh;max-width:min(400px,38vw);object-fit:contain;filter:drop-shadow(0 18px 30px rgba(0,0,0,.6))}
+.info{min-width:0}
+.rankline{font-family:'Courier Prime',monospace;font-size:.72rem;letter-spacing:.34em;color:var(--ac)}
+.info h2{font-family:'Anton',sans-serif;font-size:clamp(2.2rem,5.2vw,4rem);line-height:1;margin:8px 0 4px;text-transform:uppercase;color:#fff;text-shadow:4px 4px 0 color-mix(in srgb,var(--ac) 55%,#000)}
+.card.light .info h2{color:#241a0c;text-shadow:4px 4px 0 color-mix(in srgb,var(--ac) 45%,#fff)}
+.hours{display:flex;align-items:baseline;gap:10px;margin:10px 0}
+.hnum{font-family:'Anton',sans-serif;font-size:3rem;color:var(--ac)}
+.card.light .hnum{color:#6d3410}
+.hunit{font-size:.72rem;letter-spacing:.26em;text-transform:uppercase;opacity:.75}
+.bar{height:8px;background:rgba(255,255,255,.14);margin:4px 0 20px;max-width:520px}
+.card.light .bar{background:rgba(0,0,0,.18)}
 .bar i{display:block;height:100%;background:var(--ac)}
-.stats{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px}
-.stats dt{font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;color:#8f8f8f;margin-bottom:2px}
-.stats dd{font-weight:600;font-size:.94rem;line-height:1.3}
-#rank-1 .stage{border-color:color-mix(in srgb,var(--ac) 55%,#000);box-shadow:0 0 60px color-mix(in srgb,var(--ac) 22%,transparent)}
-#rank-1 .figwrap,#rank-1 .artistimg{height:340px;max-height:340px}
-footer{text-align:center;color:#777;font-size:.8rem;line-height:1.7;padding:44px 22px 60px;max-width:760px;margin:0 auto}
-footer b{color:#bdbdbd}
-@media (max-width:760px){
-  .timeline::before{left:26px}
-  .card,.card.side-r{width:100%;margin-left:0;padding:20px 0 20px 58px}
-  .node,.card.side-r .node{left:-1px;right:auto;width:48px;height:48px;top:38px}
-  .figwrap{height:230px} .artistimg{max-height:230px}
-  #rank-1 .figwrap,#rank-1 .artistimg{height:260px;max-height:260px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px 22px;max-width:560px}
+.stats dt{font-size:.64rem;letter-spacing:.22em;text-transform:uppercase;opacity:.65;margin-bottom:2px}
+.stats dd{font-weight:600;font-size:.98rem;line-height:1.3}
+#rank-1 .artistimg{max-height:60vh}
+#rank-1 .info h2{font-size:clamp(2.8rem,6.5vw,5rem)}
+footer{text-align:center;color:#9b937f;font-size:.8rem;line-height:1.7;padding:46px 22px 60px;max-width:760px;margin:0 auto}
+footer b{color:#d8cfb8}
+@media (max-width:820px){
+  .card{padding:40px 14px}
+  .stage{flex-direction:column;gap:20px;padding:38px 24px;text-align:left}
+  .artistimg{max-height:40vh;max-width:78vw}
+  .ghost{font-size:52vw}
   .stats{grid-template-columns:1fr 1fr}
 }
 </style>
@@ -66,7 +73,8 @@ footer b{color:#bdbdbd}
   <div class="kicker">Lucian · Spotify Extended Streaming History · 2018 — 2026</div>
   <h1>The Listening<br><span class="thin">Timeline</span></h1>
   <p class="sub">My top 20 artists of all time, ranked by hours streamed. It starts at the
-  least-streamed name at the top — the deeper you scroll, the bigger it gets. Drake waits at the bottom.</p>
+  least-streamed name at the top — and every artist gets a world of their own color.
+  The deeper you scroll, the bigger it gets. Drake waits at the bottom.</p>
   <div class="totals">
     <div><b>2,162.7h</b><span>Total streamed</span></div>
     <div><b>189,231</b><span>Songs played</span></div>
@@ -75,16 +83,31 @@ footer b{color:#bdbdbd}
   </div>
   <div class="direction">▼ &nbsp;<b>#20</b> at the top — <b>#1</b> at the bottom&nbsp; ▼</div>
 </header>
-<main class="timeline">
+<main>
 
-<section class="card side-l" id="rank-20" style="--ac:#c9a227">
-  <div class="node"><span>#20</span></div>
+<section class="card v-bolts" id="rank-20" style="--bg1:#150b36;--bg2:#3d0a2e;--ac:#ffd94d">
+  <div class="bolts"><i class="bolt" style="left:85%;top:64%;--r:20deg;--s:1.77;opacity:0.43"></i>
+      <i class="bolt" style="left:60%;top:83%;--r:28deg;--s:1.30;opacity:0.37"></i>
+      <i class="bolt" style="left:39%;top:91%;--r:-30deg;--s:0.95;opacity:0.92"></i>
+      <i class="bolt" style="left:43%;top:21%;--r:-14deg;--s:1.77;opacity:0.48"></i>
+      <i class="bolt" style="left:41%;top:58%;--r:23deg;--s:1.19;opacity:0.31"></i>
+      <i class="bolt" style="left:54%;top:5%;--r:-31deg;--s:0.77;opacity:0.74"></i>
+      <i class="bolt" style="left:27%;top:64%;--r:-26deg;--s:0.66;opacity:0.27"></i>
+      <i class="bolt" style="left:67%;top:79%;--r:-21deg;--s:0.83;opacity:0.26"></i>
+      <i class="bolt" style="left:61%;top:29%;--r:-28deg;--s:1.41;opacity:0.67"></i>
+      <i class="bolt" style="left:43%;top:16%;--r:11deg;--s:1.28;opacity:0.55"></i>
+      <i class="bolt" style="left:16%;top:86%;--r:28deg;--s:1.47;opacity:0.95"></i>
+      <i class="bolt" style="left:55%;top:33%;--r:-29deg;--s:1.35;opacity:0.61"></i>
+      <i class="bolt" style="left:42%;top:91%;--r:26deg;--s:0.66;opacity:0.87"></i>
+      <i class="bolt" style="left:1%;top:61%;--r:-14deg;--s:1.52;opacity:0.92"></i>
+      <i class="bolt" style="left:50%;top:71%;--r:-34deg;--s:1.43;opacity:0.33"></i>
+      <i class="bolt" style="left:43%;top:32%;--r:-32deg;--s:1.55;opacity:0.32"></i></div>
+  <div class="ghost">#20</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">EP</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/elvis-presley.png" alt="Elvis Presley portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/elvis-presley.png" alt="Elvis Presley portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#20 OF 20 · ALL TIME</div>
       <h2>ELVIS PRESLEY</h2>
@@ -102,14 +125,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-r" id="rank-19" style="--ac:#a3e635">
-  <div class="node"><span>#19</span></div>
+<section class="card v-haze" id="rank-19" style="--bg1:#0a240d;--bg2:#1e4d1f;--ac:#a3e635">
+  
+  <div class="ghost">#19</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">YT</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/young-thug.png" alt="Young Thug portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/young-thug.png" alt="Young Thug portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#19 OF 20 · ALL TIME</div>
       <h2>YOUNG THUG</h2>
@@ -127,14 +150,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-l" id="rank-18" style="--ac:#f472b6">
-  <div class="node"><span>#18</span></div>
+<section class="card v-chrome" id="rank-18" style="--bg1:#26081a;--bg2:#5c1036;--ac:#f472b6">
+  
+  <div class="ghost">#18</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">RA</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/rich-amiri.png" alt="Rich Amiri portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/rich-amiri.png" alt="Rich Amiri portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#18 OF 20 · ALL TIME</div>
       <h2>RICH AMIRI</h2>
@@ -152,14 +175,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-r" id="rank-17" style="--ac:#38bdf8">
-  <div class="node"><span>#17</span></div>
+<section class="card v-noir" id="rank-17" style="--bg1:#081426;--bg2:#14324f;--ac:#38bdf8">
+  
+  <div class="ghost">#17</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">BF</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/brent-faiyaz.png" alt="Brent Faiyaz portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/brent-faiyaz.png" alt="Brent Faiyaz portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#17 OF 20 · ALL TIME</div>
       <h2>BRENT FAIYAZ</h2>
@@ -177,14 +200,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-l" id="rank-16" style="--ac:#f5f5f5">
-  <div class="node"><span>#16</span></div>
+<section class="card v-gold" id="rank-16" style="--bg1:#2a0404;--bg2:#5e0d0d;--ac:#ffd94d">
+  
+  <div class="ghost">#16</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">MJ</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/michael-jackson.png" alt="Michael Jackson portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/michael-jackson.png" alt="Michael Jackson portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#16 OF 20 · ALL TIME</div>
       <h2>MICHAEL JACKSON</h2>
@@ -202,14 +225,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-r" id="rank-15" style="--ac:#8b5cf6">
-  <div class="node"><span>#15</span></div>
+<section class="card v-haze" id="rank-15" style="--bg1:#170b33;--bg2:#35135e;--ac:#e879f9">
+  
+  <div class="ghost">#15</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">LU</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/lil-uzi-vert.png" alt="Lil Uzi Vert portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/lil-uzi-vert.png" alt="Lil Uzi Vert portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#15 OF 20 · ALL TIME</div>
       <h2>LIL UZI VERT</h2>
@@ -227,14 +250,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-l" id="rank-14" style="--ac:#ef4444">
-  <div class="node"><span>#14</span></div>
+<section class="card v-gothic" id="rank-14" style="--bg1:#0d0000;--bg2:#330505;--ac:#ef4444">
+  
+  <div class="ghost">#14</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">PC</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/playboi-carti.png" alt="Playboi Carti portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/playboi-carti.png" alt="Playboi Carti portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#14 OF 20 · ALL TIME</div>
       <h2>PLAYBOI CARTI</h2>
@@ -252,14 +275,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-r" id="rank-13" style="--ac:#d4d4d4">
-  <div class="node"><span>#13</span></div>
+<section class="card v-noir" id="rank-13" style="--bg1:#11161d;--bg2:#232f3d;--ac:#d4d4d4">
+  
+  <div class="ghost">#13</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">E</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/eminem.png" alt="Eminem portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/eminem.png" alt="Eminem portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#13 OF 20 · ALL TIME</div>
       <h2>EMINEM</h2>
@@ -277,14 +300,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-l" id="rank-12" style="--ac:#facc15">
-  <div class="node"><span>#12</span></div>
+<section class="card v-pastel" id="rank-12" style="--bg1:#0f2a1a;--bg2:#20503a;--ac:#f9a8d4">
+  
+  <div class="ghost">#12</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">TT</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/tyler-the-creator.png" alt="Tyler, The Creator portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/tyler-the-creator.png" alt="Tyler, The Creator portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#12 OF 20 · ALL TIME</div>
       <h2>TYLER, THE CREATOR</h2>
@@ -302,14 +325,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-r" id="rank-11" style="--ac:#fbbf24">
-  <div class="node"><span>#11</span></div>
+<section class="card v-haze" id="rank-11" style="--bg1:#261303;--bg2:#54300a;--ac:#fbbf24">
+  
+  <div class="ghost">#11</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">CB</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/chris-brown.png" alt="Chris Brown portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/chris-brown.png" alt="Chris Brown portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#11 OF 20 · ALL TIME</div>
       <h2>CHRIS BROWN</h2>
@@ -327,14 +350,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-l" id="rank-10" style="--ac:#e879f9">
-  <div class="node"><span>#10</span></div>
+<section class="card v-haze" id="rank-10" style="--bg1:#220722;--bg2:#47103a;--ac:#e879f9">
+  
+  <div class="ghost">#10</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">P</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/partynextdoor.png" alt="PARTYNEXTDOOR portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/partynextdoor.png" alt="PARTYNEXTDOOR portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#10 OF 20 · ALL TIME</div>
       <h2>PARTYNEXTDOOR</h2>
@@ -352,14 +375,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-r" id="rank-9" style="--ac:#2dd4bf">
-  <div class="node"><span>#9</span></div>
+<section class="card v-noir" id="rank-9" style="--bg1:#03211e;--bg2:#084a42;--ac:#2dd4bf">
+  
+  <div class="ghost">#9</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">S</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/sza.png" alt="SZA portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/sza.png" alt="SZA portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#9 OF 20 · ALL TIME</div>
       <h2>SZA</h2>
@@ -377,14 +400,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-l" id="rank-8" style="--ac:#a78bfa">
-  <div class="node"><span>#8</span></div>
+<section class="card v-haze" id="rank-8" style="--bg1:#150a30;--bg2:#2e1258;--ac:#a78bfa">
+  
+  <div class="ghost">#8</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">F</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/future.png" alt="Future portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/future.png" alt="Future portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#8 OF 20 · ALL TIME</div>
       <h2>FUTURE</h2>
@@ -402,14 +425,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-r" id="rank-7" style="--ac:#e0342f">
-  <div class="node"><span>#7</span></div>
+<section class="card v-poster" id="rank-7" style="--bg1:#260505;--bg2:#520b0b;--ac:#ff5a4d">
+  
+  <div class="ghost">#7</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">KL</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/kendrick-lamar.png" alt="Kendrick Lamar portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/kendrick-lamar.png" alt="Kendrick Lamar portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#7 OF 20 · ALL TIME</div>
       <h2>KENDRICK LAMAR</h2>
@@ -427,14 +450,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-l" id="rank-6" style="--ac:#d8c9a3">
-  <div class="node"><span>#6</span></div>
+<section class="card v-noir light" id="rank-6" style="--bg1:#cdbb96;--bg2:#a68f63;--ac:#8a3b12">
+  
+  <div class="ghost">#6</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">KW</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/kanye-west.png" alt="Kanye West portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/kanye-west.png" alt="Kanye West portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#6 OF 20 · ALL TIME</div>
       <h2>KANYE WEST</h2>
@@ -452,14 +475,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-r" id="rank-5" style="--ac:#fb4d6d">
-  <div class="node"><span>#5</span></div>
+<section class="card v-haze" id="rank-5" style="--bg1:#22060d;--bg2:#4a0c1e;--ac:#fb4d6d">
+  
+  <div class="ghost">#5</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">BT</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/bryson-tiller.png" alt="Bryson Tiller portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/bryson-tiller.png" alt="Bryson Tiller portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#5 OF 20 · ALL TIME</div>
       <h2>BRYSON TILLER</h2>
@@ -477,14 +500,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-l" id="rank-4" style="--ac:#b26be0">
-  <div class="node"><span>#4</span></div>
+<section class="card v-rain" id="rank-4" style="--bg1:#1c0533;--bg2:#3d0a70;--ac:#c07dff">
+  
+  <div class="ghost">#4</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">P</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/prince.png" alt="Prince portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/prince.png" alt="Prince portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#4 OF 20 · ALL TIME</div>
       <h2>PRINCE</h2>
@@ -502,14 +525,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-r" id="rank-3" style="--ac:#818cf8">
-  <div class="node"><span>#3</span></div>
+<section class="card v-haze" id="rank-3" style="--bg1:#100826;--bg2:#281257;--ac:#818cf8">
+  
+  <div class="ghost">#3</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">DT</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/don-toliver.png" alt="Don Toliver portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/don-toliver.png" alt="Don Toliver portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#3 OF 20 · ALL TIME</div>
       <h2>DON TOLIVER</h2>
@@ -527,14 +550,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-l" id="rank-2" style="--ac:#f97316">
-  <div class="node"><span>#2</span></div>
+<section class="card v-poster" id="rank-2" style="--bg1:#261003;--bg2:#57260a;--ac:#fb923c">
+  
+  <div class="ghost">#2</div>
   <div class="stage">
     
-    <div class="figwrap">
-      <div class="figph"><span class="figini">TS</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/travis-scott.png" alt="Travis Scott portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/travis-scott.png" alt="Travis Scott portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#2 OF 20 · ALL TIME</div>
       <h2>TRAVIS SCOTT</h2>
@@ -552,14 +575,14 @@ footer b{color:#bdbdbd}
   </div>
 </section>
 
-<section class="card side-r" id="rank-1" style="--ac:#ffd97a">
-  <div class="node"><span>#1</span></div>
+<section class="card v-gold" id="rank-1" style="--bg1:#171204;--bg2:#42320a;--ac:#ffd94d">
+  
+  <div class="ghost">#1</div>
   <div class="stage">
     <div class="crown">MOST STREAMED</div>
-    <div class="figwrap">
-      <div class="figph"><span class="figini">D</span><span class="fignote">portrait to come</span></div>
-      <img class="artistimg" src="assets/artists/drake.png" alt="Drake portrait" loading="lazy" decoding="async" onerror="this.remove()">
-    </div>
+    <figure class="figwrap">
+      <img class="artistimg" src="assets/artists/drake.png" alt="Drake portrait" loading="lazy" decoding="async" onerror="this.parentNode.remove()">
+    </figure>
     <div class="info">
       <div class="rankline">#1 OF 20 · ALL TIME</div>
       <h2>DRAKE</h2>
@@ -581,7 +604,7 @@ footer b{color:#bdbdbd}
   <p><b>How this is counted:</b> every play in my Spotify Extended Streaming History export
   (190,010 entries, Jan 6 2018 – Nov 3 2026), ranked by total time streamed. 2019 is silent in
   Spotify's own record — the gap is in their file, not in the listening.</p>
-  <p>Portraits land in the empty frames as they arrive.</p>
+  <p>Portraits arrive one by one — each drops straight into its world.</p>
 </footer>
 </body>
 </html>
