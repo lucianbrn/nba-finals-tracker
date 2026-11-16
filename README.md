@@ -1,36 +1,16 @@
-# Finals Tracker — 2K Save
+# The Listening Timeline
 
-A living Finals archive for Lucian's NBA 2K MyNBA Eras save.
+Lucian's top 20 artists of all time from his Spotify Extended Streaming History,
+ranked by total hours streamed — least streamed (#20) at the top of the page,
+most streamed (#1, Drake) at the bottom.
 
-- **Save:** Houston Rockets (Lucian as GM) · Magic vs Bird Era · starts 1983-84
-- **Design DNA:** We In The League — black stage at all times, stage re-lights per Finals (team/player colors), nickname as the big title in a font/color picked for the player, uniform title size, meta line NAME · POSITION · TEAM, team logo, centered jersey number, transparent cutout from a photo Lucian supplies.
-- **Record format (from Lucian's earlier archive projects):** West champion LEFT / year-specific Finals mark CENTER / East champion RIGHT, era-accurate team logos and team colors for that season, champion + series score on every entry.
-- **Per season Lucian reports:** Finals teams + score + champion, league MVP, Defensive Player of the Year, Finals MVP, and the two featured players (best player on each Finals team).
-- **Rules:** Nothing invented. Nothing corrected to real-life history. Crop sweep (alpha edge audit + zoom head checks + rendered pass) after every completed entry.
-- **Grading:** At the end of the save, graded against real-life Houston (lost 1986 Finals; titles 1993-94, 1994-95 only).
+- Data: `top20.json` in the project folder, computed from the Spotify Extended
+  Streaming History export of 2026-11-04 (190,010 entries, 2018-01-06 – 2026-11-03),
+  ranked by ms_played summed over all music plays.
+- Artist portraits: `assets/artists/<slug>.png` — supplied by Lucian; each card
+  shows a placeholder frame until its PNG lands.
+- Build: `build.py` regenerates `index.html` from `top20.json`.
 
-## Recorded so far (`finals.json` is the data of record)
-
-- **1983-84:** Los Angeles Lakers 4-0 Boston Celtics · Champion Lakers · MVP Magic Johnson · DPOY Moses Malone · Finals MVP Magic Johnson · West featured player: Magic Johnson. East featured player: Larry Bird. Player art: real photo cutouts (giant PNGs).
-- **1984-85:** Los Angeles Lakers 4-3 Boston Celtics (seven games; East champion confirmed by Lucian 2026-11-12) · Champion Lakers · MVP Magic Johnson · DPOY Hakeem Olajuwon · Finals MVP Magic Johnson · West featured player: Magic Johnson. East featured player: Larry Bird. Player art: real photo cutouts (giant PNGs).
-- **1985-86:** Los Angeles Lakers 4-3 Philadelphia 76ers (seven games) · Champion Lakers · MVP Magic Johnson · DPOY Hakeem Olajuwon (team not stated) · Finals MVP Magic Johnson · Real 1986 Finals logo centered · West featured player: Magic Johnson. East featured player: Michael Jordan (Lucian's '86 sprite sheet settled the Jordan-or-Moses call).
-- **1986-87:** Philadelphia 76ers 4-1 Los Angeles Lakers · Champion 76ers · MVP Michael Jordan · DPOY Hakeem Olajuwon (team not stated) · Finals MVP Michael Jordan · Real 1987 Finals logo centered · West featured player: Magic Johnson. East featured player: Michael Jordan.
-
-## Deploy
-
-Static site (index.html + assets/ + finals.json). Pushed to GitHub; Vercel imports the repo so pushes to main auto-deploy to the public link.
-
-- **1987-88:** Boston Celtics 4-1 Dallas Mavericks · Champion Celtics · MVP Hakeem Olajuwon · DPOY Hakeem Olajuwon (Hakeem swept both; teams not stated) · Finals MVP Larry Bird · Real 1988 Finals logo centered · West featured player: Mark Aguirre (Dallas #24). East featured player: Larry Bird.
-- **1988-89:** Dallas Mavericks 4-2 Miami Heat · Champion Mavericks (their first title in this save) · MVP Michael Jordan · DPOY Hakeem Olajuwon · Finals MVP Mark Aguirre · Real 1989 Finals logo + era Heat logo · West featured player: Mark Aguirre (real photo in). East featured player: John Stockton (named by Lucian 2026-11-13; his supplied Heat #12 portrait). Design: each season is now ONE combined card (matchup + players + awards), and player titles use their team's lettering font (Jaffe NBA Lakers/Celtics/76ers/Mavericks).
-- Layout update (Lucian, 2026-11-12): the top matchup/score row is GONE from every season. The trophy now sits between the two players, with that year's Finals logo and the series score + champion beneath it.
-- **1989-90:** New Jersey Nets 4-1 San Antonio Spurs · Champion Nets · MVP Michael Jordan · DPOY Hakeem Olajuwon · Finals MVP Chris Mullin · Real 1990 Finals logo, era Spurs fiesta logo + Nets state roundel · East featured player: Chris Mullin (traditional royal-blue Nets portrait — Lucian's call 2026-11-13: traditional jersey = 1990, cloud tie-dye = 1991). West featured player: Patrick Ewing (named by Lucian 2026-11-13; his supplied Spurs #33 portrait).
-- Art overhaul (Lucian, 2026-11-12): EVERY player GIF removed — all panels now use real player photos cut into giant PNGs. Jordan's and Mullin's real photos show their real-life teams (Bulls/Warriors); in this save they play for the 76ers/Nets. Panel titles are first + last name only, and award names carry no team suffixes (consistent formatting).
-
-- **1990-91:** New Jersey Nets 4-1 Los Angeles Lakers · Champion Nets (back-to-back) · West featured player: Magic Johnson (distinct older-Magic portrait supplied by Lucian 2026-11-13 for this year) · East featured player: Chris Mullin (cloud tie-dye Nets portrait) · Real 1991 Finals logo + 1990-97 Nets logo · Series score per Lucian's tentative recollection · MVP Patrick Ewing · DPOY Hakeem Olajuwon · Finals MVP Chris Mullin.
-
-- **1991-92:** Los Angeles Lakers 4-1 Philadelphia 76ers · Champion Lakers · MVP Magic Johnson · DPOY Hakeem Olajuwon · Finals MVP Magic Johnson · West featured player: Magic Johnson (older-Magic portrait, same as 1991) · East featured player: Michael Jordan · Real 1992 Finals logo centered.
-
-- **1992-93:** Dallas Mavericks 3-4 Indiana Pacers · Champion Pacers · MVP Chris Mullin · DPOY Hakeem Olajuwon · Finals MVP Vlade Divac · West featured player: Mark Aguirre · East featured player: Vlade Divac (both hands-on-hips portraits supplied by Lucian, in the Mavs' 1992-93 royal-blue road uniform and the Pacers' navy Flo-Jo design) · Real 1993 Finals logo centered.
-- **1993-94:** Dallas Mavericks 4-2 New York Knicks · Champion Mavericks · MVP Scottie Pippen · DPOY Scottie Pippen · Finals MVP Dino Radja · West featured player: Dino Radja · East featured player: Karl Malone (both hands-on-hips portraits supplied by Lucian, Radja in the Mavs' royal blue and Malone in the Knicks' royal-blue road uniform) · Real 1994 Finals logo centered.
-- **1994-95:** Houston Rockets 4-3 New Jersey Nets · Champion Rockets (Lucian's own team — first Finals and first title in this save) · MVP Scottie Pippen · DPOY Scottie Pippen · Finals MVP Scottie Pippen (a full sweep) · West featured player: Scottie Pippen · East featured player: Chris Mullin (both portraits supplied by Lucian) · Real 1995 Finals logo centered.
-- **1995-96:** Cleveland Cavaliers 4-3 Dallas Mavericks · Champion Cavaliers · MVP Karl Malone · DPOY Scottie Pippen · Finals MVP Shawn Kemp · West featured player: Dino Radja (1994 portrait reused — same Mavs uniform) · East featured player: Shawn Kemp (hands-on-hips portrait in the Cavs' black road uniform, supplied by Lucian) · Real 1996 Finals logo (first of the gold-oval era) centered.
+This site replaced the NBA Finals Tracker on 2026-11-16 at Lucian's order.
+The Finals Tracker is fully preserved: `finals.json` stays in this repo,
+and every Finals version of `index.html` is in this repo's git history.
