@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#000000">
+<title>Finals Tracker — Philadelphia 76ers (New Save)</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏆</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;800&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;color:#f2f2f2;font-family:'Archivo',Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+header{text-align:center;padding:64px 20px 10px}
+.kicker{font-family:'Courier Prime',monospace;letter-spacing:.42em;font-size:.72rem;color:#8f8f8f;text-transform:uppercase}
+h1{font-family:'Anton',sans-serif;font-size:clamp(3rem,10vw,6.8rem);line-height:.96;text-transform:uppercase;color:#fff}
+h1 .thin{color:transparent;-webkit-text-stroke:2px #ffd94d}
+.setup{display:inline-block;margin-top:20px;border:1px solid #2c2c2c;background:#0b0b0b;padding:12px 22px;font-family:'Courier Prime',monospace;font-size:.82rem;letter-spacing:.14em;color:#d8d8d8}
+.setup b{color:#ffd94d}
+.sub{color:#9a9a9a;font-size:.95rem;margin:18px auto 0;max-width:620px;line-height:1.55}
+main{max-width:1060px;margin:0 auto;padding:44px 18px 30px}
+.season{border:1px solid #232323;background:linear-gradient(180deg,#0a0a0a,#050505);margin-bottom:30px}
+.season-head{display:flex;justify-content:space-between;align-items:baseline;gap:14px;padding:20px 26px 6px;flex-wrap:wrap}
+.season-title{font-family:'Anton',sans-serif;font-size:clamp(1.9rem,5vw,3rem);color:#fff;letter-spacing:.02em}
+.season-tag{font-family:'Courier Prime',monospace;font-size:.7rem;letter-spacing:.3em;color:#ffd94d;text-transform:uppercase}
+.awards{display:flex;gap:12px;flex-wrap:wrap;padding:12px 26px 4px}
+.award{flex:1;min-width:200px;border:1px solid #1e1e1e;background:#080808;padding:12px 16px}
+.award dt{font-size:.62rem;letter-spacing:.26em;text-transform:uppercase;color:#8f8f8f;margin-bottom:4px}
+.award dd{font-weight:800;font-size:1.05rem;color:#e8e8e8}
+.empty{color:#555;font-weight:400;font-style:italic}
+.versus{display:flex;align-items:stretch;gap:0;padding:22px 26px 8px}
+.side{flex:1;text-align:center;padding:10px 6px}
+.side .conf{font-family:'Courier Prime',monospace;font-size:.66rem;letter-spacing:.34em;color:#8f8f8f;text-transform:uppercase}
+.side .team{font-family:'Anton',sans-serif;font-size:clamp(1.5rem,4.4vw,2.6rem);color:#fff;text-transform:uppercase;margin-top:6px;line-height:1.05}
+.side .player{margin-top:10px;color:#c9c9c9;font-size:.92rem}
+.mid{flex:0 0 128px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.vs{width:58px;height:58px;border-radius:50%;border:2px solid #ffd94d;color:#ffd94d;font-family:'Anton',sans-serif;display:flex;align-items:center;justify-content:center;font-size:1.15rem}
+.score{font-family:'Anton',sans-serif;font-size:1.7rem;color:#fff;letter-spacing:.08em}
+.score small{display:block;font-family:'Courier Prime',monospace;font-size:.58rem;letter-spacing:.3em;color:#8f8f8f;text-align:center;margin-top:2px}
+.fmvp{padding:6px 26px 24px;text-align:center}
+.fmvp dt{font-size:.62rem;letter-spacing:.26em;text-transform:uppercase;color:#8f8f8f;margin-bottom:4px}
+.fmvp dd{font-weight:800;font-size:1.15rem;color:#ffd94d}
+.note{max-width:1060px;margin:0 auto;padding:0 18px 54px;color:#777;font-size:.82rem;line-height:1.7;text-align:center}
+.note b{color:#bbb}
+@media (max-width:700px){
+  .versus{padding:18px 12px 4px}
+  .mid{flex-basis:84px}
+  .vs{width:44px;height:44px;font-size:.95rem}
+  .score{font-size:1.3rem}
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">NBA 2K · MyNBA Eras · Finals Tracker</div>
+  <h1>Finals<br><span class="thin">Tracker</span></h1>
+  <div class="setup">NEW SAVE · GM: <b>PHILADELPHIA 76ERS</b> · BEGINS <b>1991-92</b> — RIGHT AFTER THE 1991 CHAMPIONSHIP</div>
+  <p class="sub">A fresh board. Every season lands here exactly as it's played — league MVP,
+  Defensive Player of the Year, the Finals, and the two featured players. Nothing recorded yet.</p>
+</header>
+<main>
+  <!-- BLANK SEASON TEMPLATE — duplicate this block per season and fill it in -->
+  <article class="season" id="season-template">
+    <div class="season-head">
+      <div class="season-title">1991–92</div>
+      <div class="season-tag">Season 1 · Not yet played</div>
+    </div>
+    <dl class="awards">
+      <div class="award"><dt>League MVP</dt><dd class="empty">— to be decided —</dd></div>
+      <div class="award"><dt>Defensive Player of the Year</dt><dd class="empty">— to be decided —</dd></div>
+    </dl>
+    <div class="versus">
+      <div class="side">
+        <div class="conf">West</div>
+        <div class="team empty">TBD</div>
+        <div class="player empty">Featured player — TBD</div>
+      </div>
+      <div class="mid">
+        <div class="vs">VS</div>
+        <div class="score">– — –<small>Series</small></div>
+      </div>
+      <div class="side">
+        <div class="conf">East</div>
+        <div class="team empty">TBD</div>
+        <div class="player empty">Featured player — TBD</div>
+      </div>
+    </div>
+    <dl class="fmvp"><dt>Finals MVP</dt><dd class="empty">— to be decided —</dd></dl>
+  </article>
+</main>
+<p class="note"><b>How this fills in:</b> one card per season, in order. West always on the left, East on the
+right, score reading West — East. Award winners are listed by name only — never their teams.
+Real history counts through the 1991 Finals; from 1991-92 on, this save writes its own.</p>
+</body>
+</html>
